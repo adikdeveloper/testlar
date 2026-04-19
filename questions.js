@@ -3,37 +3,37 @@ const questionsDatabase = {
     russian: {
         1: {
             questions: [
-                // рџџў Oson testlar (1-5)
+                // 🟢 Oson testlar (1-5)
                 { question: "3 + 2 = ?", options: ["4", "5", "6", "7"], correctAnswer: 1 },
                 { question: "7 - 4 = ?", options: ["2", "3", "4", "5"], correctAnswer: 1 },
                 { question: "5 + 1 = ?", options: ["5", "6", "7", "8"], correctAnswer: 1 },
                 { question: "9 - 2 = ?", options: ["6", "7", "8", "5"], correctAnswer: 1 },
                 { question: "4 + 4 = ?", options: ["6", "7", "8", "9"], correctAnswer: 2 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "Dilshodda 6 ta olma bor edi. Onasi unga yana 5 ta olma berdi. Dilshodda jami nechta olma boвЂldi?", options: ["10", "11", "12", "13"], correctAnswer: 1 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "Dilshodda 6 ta olma bor edi. Onasi unga yana 5 ta olma berdi. Dilshodda jami nechta olma bo‘ldi?", options: ["10", "11", "12", "13"], correctAnswer: 1 },
                 { question: "Stol ustida 12 ta qalam bor edi. 4 tasi olindi. Stol ustida nechta qalam qoldi?", options: ["6", "7", "8", "9"], correctAnswer: 2 },
-                { question: "Azizada 7 ta gul bor edi. U yana 6 ta gul oldi. Endi unda nechta gul boвЂldi?", options: ["12", "13", "14", "15"], correctAnswer: 1 },
+                { question: "Azizada 7 ta gul bor edi. U yana 6 ta gul oldi. Endi unda nechta gul bo‘ldi?", options: ["12", "13", "14", "15"], correctAnswer: 1 },
                 { question: "Javohir 15 ta konfetdan 7 tasini yedi. Nechta konfet qoldi?", options: ["7", "8", "9", "10"], correctAnswer: 1 },
-                { question: "BogвЂda 9 ta qush bor edi. Yana 8 ta qush uchib keldi. Jami nechta qush boвЂldi?", options: ["15", "16", "17", "18"], correctAnswer: 2 },
+                { question: "Bog‘da 9 ta qush bor edi. Yana 8 ta qush uchib keldi. Jami nechta qush bo‘ldi?", options: ["15", "16", "17", "18"], correctAnswer: 2 },
                 { question: "Bir qutida 14 ta shar bor edi. 6 tasi yorildi. Nechta shar qoldi?", options: ["7", "8", "9", "10"], correctAnswer: 1 },
                 { question: "Malika 5 ta daftar oldi. Keyin yana 3 ta va yana 4 ta daftar oldi. U jami nechta daftar oldi?", options: ["10", "11", "12", "13"], correctAnswer: 2 },
-                { question: "18 ta kitobning 9 tasi javonga qoвЂyildi. Nechta kitob qolib turibdi?", options: ["7", "8", "9", "10"], correctAnswer: 2 },
-                { question: "Bahromda 16 ta kubik, ukasida 12 ta kubik bor. Kimda koвЂproq kubik bor?", options: ["Ukasida", "Ikkalasida teng", "Bahromda", "Hech birida"], correctAnswer: 2 },
+                { question: "18 ta kitobning 9 tasi javonga qo‘yildi. Nechta kitob qolib turibdi?", options: ["7", "8", "9", "10"], correctAnswer: 2 },
+                { question: "Bahromda 16 ta kubik, ukasida 12 ta kubik bor. Kimda ko‘proq kubik bor?", options: ["Ukasida", "Ikkalasida teng", "Bahromda", "Hech birida"], correctAnswer: 2 },
                 { question: "Nodirada 3 ta qizil, 4 ta yashil va 5 ta sariq shar bor. Jami nechta shar bor?", options: ["10", "11", "12", "13"], correctAnswer: 2 },
 
-                // рџџЎ ChalgвЂituvchi testlar (16-20)
-                { question: "Sandiqda 10 ta oвЂyinchoq bor edi. Hech biri olinmadi. Sandiqda nechta oвЂyinchoq bor?", options: ["0", "1", "9", "10"], correctAnswer: 3 },
+                // 🟡 Chalg‘ituvchi testlar (16-20)
+                { question: "Sandiqda 10 ta o‘yinchoq bor edi. Hech biri olinmadi. Sandiqda nechta o‘yinchoq bor?", options: ["0", "1", "9", "10"], correctAnswer: 3 },
                 { question: "Javlonda 0 ta qalam bor edi. Unga 7 ta qalam berildi. Endi unda nechta qalam bor?", options: ["0", "6", "7", "8"], correctAnswer: 2 },
                 { question: "Darsxonada 11 ta kitob bor edi. 1 tasi olindi. Nechta kitob qoldi?", options: ["9", "10", "11", "12"], correctAnswer: 1 },
                 { question: "Savatda 2 tadan 3 guruh olma bor. Jami nechta olma bor?", options: ["4", "5", "6", "7"], correctAnswer: 2 },
-                { question: "Sonlar ketma-ketligi shunday: 4, 5, 6, __. BoвЂsh joyga qaysi son yoziladi?", options: ["5", "6", "7", "8"], correctAnswer: 2 },
+                { question: "Sonlar ketma-ketligi shunday: 4, 5, 6, __. Bo‘sh joyga qaysi son yoziladi?", options: ["5", "6", "7", "8"], correctAnswer: 2 },
 
-                // рџ§  Mantiqiy testlar (21-25)
+                // 🧠 Mantiqiy testlar (21-25)
                 { question: "Sonlar qatorini davom ettiring: 2, 4, 6, __.", options: ["7", "8", "9", "10"], correctAnswer: 1 },
                 { question: "Sonlar qatorini davom ettiring: 10, 9, 8, __.", options: ["7", "6", "5", "4"], correctAnswer: 0 },
                 { question: "Layloda 3 ta olma bor edi. Ukasi unga yana 2 ta olma berdi. Keyin u 1 ta olmani yedi. Layloda nechta olma qoldi?", options: ["3", "4", "5", "6"], correctAnswer: 1 },
-                { question: "Stol ustida 5 ta qalam bor edi. 2 tasi olindi, keyin yana 1 ta qalam qoвЂyildi. Stol ustida nechta qalam boвЂldi?", options: ["2", "3", "4", "5"], correctAnswer: 2 },
+                { question: "Stol ustida 5 ta qalam bor edi. 2 tasi olindi, keyin yana 1 ta qalam qo‘yildi. Stol ustida nechta qalam bo‘ldi?", options: ["2", "3", "4", "5"], correctAnswer: 2 },
                 { question: "Anvarda 4 ta shar bor edi. Unga yana 3 ta shar berildi. Keyin 2 ta shari uchib ketdi. Anvarda nechta shar qoldi?", options: ["4", "5", "6", "7"], correctAnswer: 1 }
             ],
             questionCount: 25,
@@ -41,310 +41,310 @@ const questionsDatabase = {
         },
         2: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "'РЁРєРѕР»Р°' soвЂzining ma'nosi qaysi?", options: ["Maktab", "Kitob", "Qalam", "Uy"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz rangni bildiradi?", options: ["РљСЂР°СЃРЅС‹Р№", "РЎС‚РѕР»", "РљРѕС€РєР°", "РњСЏС‡"], correctAnswer: 0 },
-                { question: "'РћРґРёРЅ'dan keyin qaysi son keladi?", options: ["РўСЂРё", "РџСЏС‚СЊ", "Р”РІР°", "Р§РµС‚С‹СЂРµ"], correctAnswer: 2 },
-                { question: "'РљРЅРёРіР°' soвЂzida nechta boвЂgвЂin bor?", options: ["1", "2", "3", "4"], correctAnswer: 1 },
-                { question: "'РЎРїР°СЃРёР±Рѕ' soвЂzi nimani bildiradi?", options: ["Salom", "Xayr", "Rahmat", "Kechirasiz\nQiyinroq savollar"], correctAnswer: 2 },
+                // 🟢 Oson savollar (1-5)
+                { question: "'Школа' so‘zining ma'nosi qaysi?", options: ["Maktab", "Kitob", "Qalam", "Uy"], correctAnswer: 0 },
+                { question: "Qaysi so‘z rangni bildiradi?", options: ["Красный", "Стол", "Кошка", "Мяч"], correctAnswer: 0 },
+                { question: "'Один'dan keyin qaysi son keladi?", options: ["Три", "Пять", "Два", "Четыре"], correctAnswer: 2 },
+                { question: "'Книга' so‘zida nechta bo‘g‘in bor?", options: ["1", "2", "3", "4"], correctAnswer: 1 },
+                { question: "'Спасибо' so‘zi nimani bildiradi?", options: ["Salom", "Xayr", "Rahmat", "Kechirasiz\nQiyinroq savollar"], correctAnswer: 2 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "Qaysi qatorda faqat meva nomlari berilgan?", options: ["РЇР±Р»РѕРєРѕ, РіСЂСѓС€Р°, Р±Р°РЅР°РЅ", "РЎС‚РѕР», РѕРєРЅРѕ, РґРІРµСЂСЊ", "РљРѕС€РєР°, СЃРѕР±Р°РєР°, Р»РёСЃР°", "Р СѓС‡РєР°, С‚РµС‚СЂР°РґСЊ, РєРЅРёРіР°"], correctAnswer: 0 },
-                { question: "'РЈС‡РµРЅРёРє' soвЂzining koвЂpligi qaysi?", options: ["РЈС‡РµРЅРёРє", "РЈС‡РµРЅРёС†Р°", "РЈС‡РµРЅРёРєРё", "РЈС‡РёС‚РµР»СЏ"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz savolga javob beradi: 'РљС‚Рѕ СЌС‚Рѕ?'", options: ["РЎС‚РѕР»", "Р”РµРІРѕС‡РєР°", "РћРєРЅРѕ", "Р”РµСЂРµРІРѕ"], correctAnswer: 1 },
-                { question: "'РњР°Р»СЊС‡РёРє С‡РёС‚Р°РµС‚ РєРЅРёРіСѓ.' gapida fe'l qaysi?", options: ["РњР°Р»СЊС‡РёРє", "Р§РёС‚Р°РµС‚", "РљРЅРёРіСѓ", "РљРЅРёРіР°"], correctAnswer: 1 },
-                { question: "Qaysi soвЂzda urgвЂu ikkinchi boвЂgвЂinga tushadi?", options: ["РњР°МЃРјР°", "РџР°МЃРїР°", "РћРєРЅРѕМЃ", "Р”РѕМЃРј"], correctAnswer: 2 },
-                { question: "Qaysi qatorda faqat hayvonlar berilgan?", options: ["Р’РѕР»Рє, Р»РёСЃР°, РјРµРґРІРµРґСЊ", "РЎС‚РѕР», СЃС‚СѓР», С€РєР°С„", "РЎРЅРµРі, РґРѕР¶РґСЊ, РІРµС‚РµСЂ", "Р›РµС‚Рѕ, РѕСЃРµРЅСЊ, Р·РёРјР°"], correctAnswer: 0 },
-                { question: "'РЇ ... РІ С€РєРѕР»Рµ.' gapini toвЂldiring.", options: ["СѓС‡СѓСЃСЊ", "РєРЅРёРіР°", "РєСЂР°СЃРЅС‹Р№", "СЃС‚РѕР»"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz erkak jinsiga mansub?", options: ["РњР°РјР°", "РћРєРЅРѕ", "РЎС‚РѕР»", "Р СѓС‡РєР°"], correctAnswer: 2 },
-                { question: "'Р‘РѕР»СЊС€РѕР№' soвЂziga ma'nodoshga yaqin soвЂzni toping.", options: ["РћРіСЂРѕРјРЅС‹Р№", "РњР°Р»РµРЅСЊРєРёР№", "РЈР·РєРёР№", "РќРёР·РєРёР№"], correctAnswer: 0 },
-                { question: "'РћРЅР°' olmoshi kimga nisbatan ishlatiladi?", options: ["Qiz bola yoki ayolga", "OвЂgвЂil bolaga", "Bir nechta odamga", "Buyumga faqat erkak jinsida\nChalgвЂituvchi savollar"], correctAnswer: 0 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "Qaysi qatorda faqat meva nomlari berilgan?", options: ["Яблоко, груша, банан", "Стол, окно, дверь", "Кошка, собака, лиса", "Ручка, тетрадь, книга"], correctAnswer: 0 },
+                { question: "'Ученик' so‘zining ko‘pligi qaysi?", options: ["Ученик", "Ученица", "Ученики", "Учителя"], correctAnswer: 2 },
+                { question: "Qaysi so‘z savolga javob beradi: 'Кто это?'", options: ["Стол", "Девочка", "Окно", "Дерево"], correctAnswer: 1 },
+                { question: "'Мальчик читает книгу.' gapida fe'l qaysi?", options: ["Мальчик", "Читает", "Книгу", "Книга"], correctAnswer: 1 },
+                { question: "Qaysi so‘zda urg‘u ikkinchi bo‘g‘inga tushadi?", options: ["Ма́ма", "Па́па", "Окно́", "До́м"], correctAnswer: 2 },
+                { question: "Qaysi qatorda faqat hayvonlar berilgan?", options: ["Волк, лиса, медведь", "Стол, стул, шкаф", "Снег, дождь, ветер", "Лето, осень, зима"], correctAnswer: 0 },
+                { question: "'Я ... в школе.' gapini to‘ldiring.", options: ["учусь", "книга", "красный", "стол"], correctAnswer: 0 },
+                { question: "Qaysi so‘z erkak jinsiga mansub?", options: ["Мама", "Окно", "Стол", "Ручка"], correctAnswer: 2 },
+                { question: "'Большой' so‘ziga ma'nodoshga yaqin so‘zni toping.", options: ["Огромный", "Маленький", "Узкий", "Низкий"], correctAnswer: 0 },
+                { question: "'Она' olmoshi kimga nisbatan ishlatiladi?", options: ["Qiz bola yoki ayolga", "O‘g‘il bolaga", "Bir nechta odamga", "Buyumga faqat erkak jinsida\nChalg‘ituvchi savollar"], correctAnswer: 0 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi soвЂzda СЊ belgisi bor?", options: ["Р”РµРЅСЊ", "Р”РѕРј", "РЁР°СЂ", "РљРѕС‚"], correctAnswer: 0 },
-                { question: "'РЎРѕР±Р°РєР°' soвЂzining birinchi harfi qaysi?", options: ["Рћ", "РЎ", "Рђ", "Рљ"], correctAnswer: 1 },
-                { question: "Qaysi qatorda faqat unli harflar berilgan?", options: ["Рђ, Рћ, РЈ", "Р‘, Р’, Р“", "Рњ, Рќ, Р›", "Рў, Р , РЎ"], correctAnswer: 0 },
-                { question: "'РњС‹' olmoshi nimani bildiradi?", options: ["Men", "Sen", "Biz", "U"], correctAnswer: 2 },
-                { question: "'Р—РёРјРѕР№ РёРґС‘С‚ ...' gapini toвЂldiring.", options: ["СЃРЅРµРі", "РєРЅРёРіР°", "СѓСЂРѕРє", "РґРѕРј"], correctAnswer: 0 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi so‘zda ь belgisi bor?", options: ["День", "Дом", "Шар", "Кот"], correctAnswer: 0 },
+                { question: "'Собака' so‘zining birinchi harfi qaysi?", options: ["О", "С", "А", "К"], correctAnswer: 1 },
+                { question: "Qaysi qatorda faqat unli harflar berilgan?", options: ["А, О, У", "Б, В, Г", "М, Н, Л", "Т, Р, С"], correctAnswer: 0 },
+                { question: "'Мы' olmoshi nimani bildiradi?", options: ["Men", "Sen", "Biz", "U"], correctAnswer: 2 },
+                { question: "'Зимой идёт ...' gapini to‘ldiring.", options: ["снег", "книга", "урок", "дом"], correctAnswer: 0 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         3: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "'Р›РёСЃР°' soвЂzi nimani bildiradi?", options: ["Hayvon", "Mebel", "Fasl", "Kiyim"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz fe'l hisoblanadi?", options: ["РљСЂР°СЃРёРІС‹Р№", "Р‘РµР¶Р°С‚СЊ", "РљРЅРёРіР°", "Р›РµСЃ"], correctAnswer: 1 },
-                { question: "'РЎРёРЅРёР№' soвЂzi nimani bildiradi?", options: ["Hayvon", "Rang", "Shahar", "Son"], correctAnswer: 1 },
-                { question: "Qaysi soвЂz 'kim?' savoliga javob beradi?", options: ["РЈС‡РёС‚РµР»СЊ", "РћРєРЅРѕ", "РњРѕСЂРµ", "РџРѕР»Рµ"], correctAnswer: 0 },
-                { question: "'РџСЏС‚СЊ' bu вЂ” ...", options: ["Rang", "Son", "Predmet", "Fe'l\nQiyinroq savollar"], correctAnswer: 1 },
+                // 🟢 Oson savollar (1-5)
+                { question: "'Лиса' so‘zi nimani bildiradi?", options: ["Hayvon", "Mebel", "Fasl", "Kiyim"], correctAnswer: 0 },
+                { question: "Qaysi so‘z fe'l hisoblanadi?", options: ["Красивый", "Бежать", "Книга", "Лес"], correctAnswer: 1 },
+                { question: "'Синий' so‘zi nimani bildiradi?", options: ["Hayvon", "Rang", "Shahar", "Son"], correctAnswer: 1 },
+                { question: "Qaysi so‘z 'kim?' savoliga javob beradi?", options: ["Учитель", "Окно", "Море", "Поле"], correctAnswer: 0 },
+                { question: "'Пять' bu — ...", options: ["Rang", "Son", "Predmet", "Fe'l\nQiyinroq savollar"], correctAnswer: 1 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'Р”РµС‚Рё РёРіСЂР°СЋС‚ РІРѕ РґРІРѕСЂРµ.' gapida ega qaysi?", options: ["РРіСЂР°СЋС‚", "Р’Рѕ РґРІРѕСЂРµ", "Р”РµС‚Рё", "Р”РІРѕСЂРµ"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz sifat?", options: ["Р’РµСЃС‘Р»С‹Р№", "РџСЂС‹РіР°С‚СЊ", "РњР°Р»СЊС‡РёРє", "Р‘С‹СЃС‚СЂРѕ"], correctAnswer: 0 },
-                { question: "'РРґС‚Рё' fe'lining hozirgi zamon shakli qaysi?", options: ["РРґСѓ", "РЁС‘Р»", "РџРѕР№РґС‘С‚", "РРґС‘РјС‚Рµ"], correctAnswer: 0 },
-                { question: "Qaysi qatorda antonimlar berilgan?", options: ["Р‘РѕР»СЊС€РѕР№ вЂ” РјР°Р»РµРЅСЊРєРёР№", "Р”РѕРј вЂ” РѕРєРЅРѕ", "РљРѕС‚ вЂ” РєРѕС€РєР°", "Р СѓС‡РєР° вЂ” РєР°СЂР°РЅРґР°С€"], correctAnswer: 0 },
-                { question: "'РќР° СЃС‚РѕР»Рµ Р»РµР¶РёС‚ РєРЅРёРіР°.' gapida predlog qaysi?", options: ["СЃС‚РѕР»Рµ", "Р»РµР¶РёС‚", "РЅР°", "РєРЅРёРіР°"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz koвЂplikda berilgan?", options: ["Р”РµСЂРµРІРѕ", "РЈС‡РµРЅРёРєРё", "РљРѕС€РєР°", "РџР°СЂС‚Р°"], correctAnswer: 1 },
-                { question: "'Р‘С‹СЃС‚СЂРѕ' soвЂzi qaysi soвЂz turkumiga kiradi?", options: ["Ot", "Sifat", "Ravish", "Olmosh"], correctAnswer: 2 },
-                { question: "'РЈ РґРµРІРѕС‡РєРё РєСѓРєР»Р°.' gapida kimning? soвЂrogвЂiga javob boвЂladigan soвЂz qaysi?", options: ["РґРµРІРѕС‡РєРё", "РєСѓРєР»Р°", "Сѓ", "РґРµРІРѕС‡РєР°"], correctAnswer: 0 },
-                { question: "Qaysi gap toвЂgвЂri yozilgan?", options: ["РјР°РјР° С‡РёС‚Р°РµС‚ РєРЅРёРіСѓ.", "РњР°РјР° С‡РёС‚Р°РµС‚ РєРЅРёРіСѓ.", "РјР°РјР° Р§РёС‚Р°РµС‚ РєРЅРёРіСѓ.", "РњР°РјР° С‡РёС‚Р°РµС‚ РљРЅРёРіСѓ."], correctAnswer: 1 },
-                { question: "'Р“РѕРІРѕСЂРёС‚СЊ' soвЂzining yaqin ma'nolisi qaysi?", options: ["РњРѕР»С‡Р°С‚СЊ", "РЎРєР°Р·Р°С‚СЊ", "РЎРїР°С‚СЊ", "Р›РµР¶Р°С‚СЊ\nChalgвЂituvchi savollar"], correctAnswer: 1 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Дети играют во дворе.' gapida ega qaysi?", options: ["Играют", "Во дворе", "Дети", "Дворе"], correctAnswer: 2 },
+                { question: "Qaysi so‘z sifat?", options: ["Весёлый", "Прыгать", "Мальчик", "Быстро"], correctAnswer: 0 },
+                { question: "'Идти' fe'lining hozirgi zamon shakli qaysi?", options: ["Иду", "Шёл", "Пойдёт", "Идёмте"], correctAnswer: 0 },
+                { question: "Qaysi qatorda antonimlar berilgan?", options: ["Большой — маленький", "Дом — окно", "Кот — кошка", "Ручка — карандаш"], correctAnswer: 0 },
+                { question: "'На столе лежит книга.' gapida predlog qaysi?", options: ["столе", "лежит", "на", "книга"], correctAnswer: 2 },
+                { question: "Qaysi so‘z ko‘plikda berilgan?", options: ["Дерево", "Ученики", "Кошка", "Парта"], correctAnswer: 1 },
+                { question: "'Быстро' so‘zi qaysi so‘z turkumiga kiradi?", options: ["Ot", "Sifat", "Ravish", "Olmosh"], correctAnswer: 2 },
+                { question: "'У девочки кукла.' gapida kimning? so‘rog‘iga javob bo‘ladigan so‘z qaysi?", options: ["девочки", "кукла", "у", "девочка"], correctAnswer: 0 },
+                { question: "Qaysi gap to‘g‘ri yozilgan?", options: ["мама читает книгу.", "Мама читает книгу.", "мама Читает книгу.", "Мама читает Книгу."], correctAnswer: 1 },
+                { question: "'Говорить' so‘zining yaqin ma'nolisi qaysi?", options: ["Молчать", "Сказать", "Спать", "Лежать\nChalg‘ituvchi savollar"], correctAnswer: 1 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi soвЂzda harakat ma'nosi bor?", options: ["Р‘РµР¶Р°С‚СЊ", "РљСЂР°СЃРЅС‹Р№", "РЎС‚РѕР»", "РЎРЅРµРі"], correctAnswer: 0 },
-                { question: "'РўРµС‚СЂР°РґСЊ' soвЂzi qaysi harf bilan tugaydi?", options: ["Р”", "Р¬", "Рў", "Р "], correctAnswer: 1 },
-                { question: "Qaysi qatorda faqat olmoshlar berilgan?", options: ["РЇ, С‚С‹, РјС‹", "РћРЅ, СЃС‚РѕР», РєРЅРёРіР°", "РћРЅР°, РєСЂР°СЃРёРІС‹Р№, РјС‹", "РЇ, С€РєРѕР»Р°, РІС‹"], correctAnswer: 0 },
-                { question: "'Р’С‹СЃРѕРєРёР№' soвЂzining antonimi qaysi?", options: ["Р”Р»РёРЅРЅС‹Р№", "РЈР·РєРёР№", "РќРёР·РєРёР№", "РљРѕСЂРѕС‚РєРёР№"], correctAnswer: 2 },
-                { question: "'РћСЃРµРЅСЊСЋ Р»РёСЃС‚СЊСЏ ...' gapini toвЂldiring.", options: ["РїР°РґР°СЋС‚", "РїРёС€СѓС‚", "С‡РёС‚Р°СЋС‚", "СЃРёРґСЏС‚"], correctAnswer: 0 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi so‘zda harakat ma'nosi bor?", options: ["Бежать", "Красный", "Стол", "Снег"], correctAnswer: 0 },
+                { question: "'Тетрадь' so‘zi qaysi harf bilan tugaydi?", options: ["Д", "Ь", "Т", "Р"], correctAnswer: 1 },
+                { question: "Qaysi qatorda faqat olmoshlar berilgan?", options: ["Я, ты, мы", "Он, стол, книга", "Она, красивый, мы", "Я, школа, вы"], correctAnswer: 0 },
+                { question: "'Высокий' so‘zining antonimi qaysi?", options: ["Длинный", "Узкий", "Низкий", "Короткий"], correctAnswer: 2 },
+                { question: "'Осенью листья ...' gapini to‘ldiring.", options: ["падают", "пишут", "читают", "сидят"], correctAnswer: 0 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         4: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi soвЂz ot hisoblanadi?", options: ["РљСЂР°СЃРёРІС‹Р№", "Р‘РµР¶Р°С‚СЊ", "РЈС‡РёС‚РµР»СЊ", "Р‘С‹СЃС‚СЂРѕ"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz sifat hisoblanadi?", options: ["РЁРєРѕР»Р°", "Р—РµР»С‘РЅС‹Р№", "РРіСЂР°С‚СЊ", "Р’С‡РµСЂР°"], correctAnswer: 1 },
-                { question: "Qaysi soвЂz fe'l hisoblanadi?", options: ["Р›РµС‚Р°С‚СЊ", "РЎРёРЅРёР№", "РџР°СЂС‚Р°", "РњРµРґР»РµРЅРЅРѕ"], correctAnswer: 0 },
-                { question: "'РњС‹' soвЂzi qaysi soвЂz turkumiga kiradi?", options: ["Ot", "Fe'l", "Olmosh", "Sifat"], correctAnswer: 2 },
-                { question: "'Р’РµСЃРЅР°' nimani bildiradi?", options: ["Fasl", "Hayvon", "Buyum", "Rang\nQiyinroq savollar"], correctAnswer: 0 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi so‘z ot hisoblanadi?", options: ["Красивый", "Бежать", "Учитель", "Быстро"], correctAnswer: 2 },
+                { question: "Qaysi so‘z sifat hisoblanadi?", options: ["Школа", "Зелёный", "Играть", "Вчера"], correctAnswer: 1 },
+                { question: "Qaysi so‘z fe'l hisoblanadi?", options: ["Летать", "Синий", "Парта", "Медленно"], correctAnswer: 0 },
+                { question: "'Мы' so‘zi qaysi so‘z turkumiga kiradi?", options: ["Ot", "Fe'l", "Olmosh", "Sifat"], correctAnswer: 2 },
+                { question: "'Весна' nimani bildiradi?", options: ["Fasl", "Hayvon", "Buyum", "Rang\nQiyinroq savollar"], correctAnswer: 0 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РЈС‡РµРЅРёРєРё РЅР°РїРёСЃР°Р»Рё РґРёРєС‚Р°РЅС‚.' gapida kesim qaysi?", options: ["РЈС‡РµРЅРёРєРё", "РќР°РїРёСЃР°Р»Рё", "Р”РёРєС‚Р°РЅС‚", "РЈС‡РµРЅРёРєРё РЅР°РїРёСЃР°Р»Рё"], correctAnswer: 1 },
-                { question: "Qaysi qatorda bir xil oвЂzakli soвЂzlar berilgan?", options: ["Р›РµСЃ, Р»РµСЃРЅРѕР№, Р»РµСЃРЅРёРє", "Р”РѕРј, РѕРєРЅРѕ, РґРІРµСЂСЊ", "РџРёСЃР°С‚СЊ, РєРЅРёРіР°, СЂСѓС‡РєР°", "Р—РёРјР°, Р»РµС‚Рѕ, РѕСЃРµРЅСЊ"], correctAnswer: 0 },
-                { question: "'РҐСЂР°Р±СЂС‹Р№' soвЂzining sinonimi qaysi?", options: ["РЎРјРµР»С‹Р№", "РўСЂСѓСЃР»РёРІС‹Р№", "РњР°Р»РµРЅСЊРєРёР№", "РЎР»Р°Р±С‹Р№"], correctAnswer: 0 },
-                { question: "'Р”РµС‚Рё С‡РёС‚Р°СЋС‚ РёРЅС‚РµСЂРµСЃРЅСѓСЋ РєРЅРёРіСѓ.' gapida sifat qaysi?", options: ["Р”РµС‚Рё", "Р§РёС‚Р°СЋС‚", "РРЅС‚РµСЂРµСЃРЅСѓСЋ", "РљРЅРёРіСѓ"], correctAnswer: 2 },
-                { question: "Qaysi gapda soвЂroq belgisi qoвЂyiladi?", options: ["РњС‹ РїРѕС€Р»Рё РІ С€РєРѕР»Сѓ", "РљС‚Рѕ СЃРµРіРѕРґРЅСЏ РґРµР¶СѓСЂРЅС‹Р№", "РќР° СѓР»РёС†Рµ РёРґС‘С‚ РґРѕР¶РґСЊ", "РЇ Р»СЋР±Р»СЋ С‡РёС‚Р°С‚СЊ"], correctAnswer: 1 },
-                { question: "'РџРѕРґ СЃС‚РѕР»РѕРј' birikmasida predlog qaysi?", options: ["СЃС‚РѕР»РѕРј", "РїРѕРґ", "СЃС‚РѕР»", "РѕРј"], correctAnswer: 1 },
-                { question: "'РЇ РїРёСЃР°Р»' birikmasi qaysi zamonni bildiradi?", options: ["Hozirgi", "OвЂtgan", "Kelasi", "Buyruq"], correctAnswer: 1 },
-                { question: "'РћРЅ Р±СѓРґРµС‚ С‡РёС‚Р°С‚СЊ.' gapida fe'l qaysi zamonda?", options: ["OвЂtgan", "Hozirgi", "Kelasi", "Noma'lum"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz murakkab gap tarkibida bogвЂlovchi boвЂla oladi?", options: ["Рё", "СЃС‚РѕР»", "Р±РµРіР°С‚СЊ", "РѕРєРЅРѕ"], correctAnswer: 0 },
-                { question: "'РњРѕСЂРѕР·' soвЂziga ma'nodoshga yaqin soвЂzni toping.", options: ["РҐРѕР»РѕРґ", "Р–Р°СЂР°", "РЎРѕР»РЅС†Рµ", "Р”РѕР¶РґСЊ\nChalgвЂituvchi savollar"], correctAnswer: 0 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Ученики написали диктант.' gapida kesim qaysi?", options: ["Ученики", "Написали", "Диктант", "Ученики написали"], correctAnswer: 1 },
+                { question: "Qaysi qatorda bir xil o‘zakli so‘zlar berilgan?", options: ["Лес, лесной, лесник", "Дом, окно, дверь", "Писать, книга, ручка", "Зима, лето, осень"], correctAnswer: 0 },
+                { question: "'Храбрый' so‘zining sinonimi qaysi?", options: ["Смелый", "Трусливый", "Маленький", "Слабый"], correctAnswer: 0 },
+                { question: "'Дети читают интересную книгу.' gapida sifat qaysi?", options: ["Дети", "Читают", "Интересную", "Книгу"], correctAnswer: 2 },
+                { question: "Qaysi gapda so‘roq belgisi qo‘yiladi?", options: ["Мы пошли в школу", "Кто сегодня дежурный", "На улице идёт дождь", "Я люблю читать"], correctAnswer: 1 },
+                { question: "'Под столом' birikmasida predlog qaysi?", options: ["столом", "под", "стол", "ом"], correctAnswer: 1 },
+                { question: "'Я писал' birikmasi qaysi zamonni bildiradi?", options: ["Hozirgi", "O‘tgan", "Kelasi", "Buyruq"], correctAnswer: 1 },
+                { question: "'Он будет читать.' gapida fe'l qaysi zamonda?", options: ["O‘tgan", "Hozirgi", "Kelasi", "Noma'lum"], correctAnswer: 2 },
+                { question: "Qaysi so‘z murakkab gap tarkibida bog‘lovchi bo‘la oladi?", options: ["и", "стол", "бегать", "окно"], correctAnswer: 0 },
+                { question: "'Мороз' so‘ziga ma'nodoshga yaqin so‘zni toping.", options: ["Холод", "Жара", "Солнце", "Дождь\nChalg‘ituvchi savollar"], correctAnswer: 0 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "'РЎРѕР»РЅС†Рµ СЃРІРµС‚РёС‚ СЏСЂРєРѕ.' gapida ravish qaysi?", options: ["РЎРѕР»РЅС†Рµ", "РЎРІРµС‚РёС‚", "РЇСЂРєРѕ", "РЎРІРµС‚"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz koвЂplikda emas?", options: ["РЈС‡РёС‚РµР»СЏ", "Р”РѕРјР°", "РљРЅРёРіР°", "РћРєРЅР°"], correctAnswer: 2 },
-                { question: "'РР· РїСЂСѓРґР°' birikmasida predlog qaysi?", options: ["РёР·", "РїСЂСѓРґР°", "СЂС‹Р±РєСѓ", "Рё"], correctAnswer: 0 },
-                { question: "Qaysi qatorda faqat fe'llar berilgan?", options: ["Р§РёС‚Р°С‚СЊ, РїРёСЃР°С‚СЊ, РіРѕРІРѕСЂРёС‚СЊ", "РљРЅРёРіР°, С‡РёС‚Р°С‚СЊ, Р»РµСЃ", "РљСЂР°СЃРЅС‹Р№, СЃРёРЅРёР№, Р±РµР»С‹Р№", "Р‘С‹СЃС‚СЂРѕ, РјРµРґР»РµРЅРЅРѕ, С‚РёС…Рѕ"], correctAnswer: 0 },
-                { question: "'Р”РѕР±СЂС‹Р№' soвЂzining antonimi qaysi?", options: ["РҐРѕСЂРѕС€РёР№", "Р—Р»РѕР№", "РЎРјРµР»С‹Р№", "РЎРёР»СЊРЅС‹Р№"], correctAnswer: 1 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "'Солнце светит ярко.' gapida ravish qaysi?", options: ["Солнце", "Светит", "Ярко", "Свет"], correctAnswer: 2 },
+                { question: "Qaysi so‘z ko‘plikda emas?", options: ["Учителя", "Дома", "Книга", "Окна"], correctAnswer: 2 },
+                { question: "'Из пруда' birikmasida predlog qaysi?", options: ["из", "пруда", "рыбку", "и"], correctAnswer: 0 },
+                { question: "Qaysi qatorda faqat fe'llar berilgan?", options: ["Читать, писать, говорить", "Книга, читать, лес", "Красный, синий, белый", "Быстро, медленно, тихо"], correctAnswer: 0 },
+                { question: "'Добрый' so‘zining antonimi qaysi?", options: ["Хороший", "Злой", "Смелый", "Сильный"], correctAnswer: 1 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         5: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi soвЂz turkumi predmet nomini bildiradi?", options: ["Fe'l", "Ot", "Ravish", "BogвЂlovchi"], correctAnswer: 1 },
-                { question: "Qaysi soвЂz harakatni bildiradi?", options: ["РљСЂР°СЃРѕС‚Р°", "РРіСЂР°С‚СЊ", "РЎРјРµР»С‹Р№", "Р‘С‹СЃС‚СЂРѕ"], correctAnswer: 1 },
-                { question: "Qaysi soвЂz belgi-xususiyatni bildiradi?", options: ["РЈРјРЅС‹Р№", "Р‘РµР¶Р°С‚СЊ", "РЎС‚РѕР»", "Р’С‡РµСЂР°"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz olmosh hisoblanadi?", options: ["РћРЅ", "Р”РѕРј", "РЎРёРЅРёР№", "РРґС‚Рё"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz ravish hisoblanadi?", options: ["РўРёС…Рѕ", "РўРёС€РёРЅР°", "РўРёС…РёР№", "РўРёС…РЅСѓС‚СЊ\nQiyinroq savollar"], correctAnswer: 0 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi so‘z turkumi predmet nomini bildiradi?", options: ["Fe'l", "Ot", "Ravish", "Bog‘lovchi"], correctAnswer: 1 },
+                { question: "Qaysi so‘z harakatni bildiradi?", options: ["Красота", "Играть", "Смелый", "Быстро"], correctAnswer: 1 },
+                { question: "Qaysi so‘z belgi-xususiyatni bildiradi?", options: ["Умный", "Бежать", "Стол", "Вчера"], correctAnswer: 0 },
+                { question: "Qaysi so‘z olmosh hisoblanadi?", options: ["Он", "Дом", "Синий", "Идти"], correctAnswer: 0 },
+                { question: "Qaysi so‘z ravish hisoblanadi?", options: ["Тихо", "Тишина", "Тихий", "Тихнуть\nQiyinroq savollar"], correctAnswer: 0 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'Р•СЃР»Рё РїРѕР№РґС‘С‚ РґРѕР¶РґСЊ, РјС‹ РѕСЃС‚Р°РЅРµРјСЃСЏ РґРѕРјР°.' gap turi qaysi?", options: ["Sodda gap", "QoвЂshma gap", "Undov gap", "Atov gap"], correctAnswer: 1 },
-                { question: "'РџРµСЂРµРїРёСЃР°С‚СЊ' soвЂzida prefiks qaysi?", options: ["РїРёСЃР°С‚СЊ", "РїРµСЂРµ-", "-Р°С‚СЊ", "-РїРёСЃ-"], correctAnswer: 1 },
-                { question: "'Р›РµСЃРЅРёРє' soвЂzida suffiksni toping.", options: ["Р»РµСЃ", "-РЅРёРє", "-РёРє", "-Рє"], correctAnswer: 1 },
-                { question: "'РљСЂР°СЃРёРІРµРµ' soвЂzi nimani bildiradi?", options: ["Sifatning oddiy darajasi", "Sifatning qiyosiy darajasi", "Fe'l shakli", "Ravish"], correctAnswer: 1 },
-                { question: "'РЇ, С‚С‹, РѕРЅ, РѕРЅР°' qaysi turkumga kiradi?", options: ["Son", "Olmosh", "Sifat", "Fe'l"], correctAnswer: 1 },
-                { question: "'Р’РµС‡РµСЂРѕРј' soвЂzi qaysi savolga javob beradi?", options: ["РљС‚Рѕ?", "Р§С‚Рѕ?", "РљРѕРіРґР°?", "РљР°РєРѕР№?"], correctAnswer: 2 },
-                { question: "'Р§РёС‚Р°С‚СЊ РєРЅРёРіСѓ' birikmasida bosh soвЂz qaysi?", options: ["Р§РёС‚Р°С‚СЊ", "РљРЅРёРіСѓ", "Ikkalasi teng", "Bosh soвЂz yoвЂq"], correctAnswer: 0 },
-                { question: "'Р РµР±СЏС‚Р° РїСЂРёС€Р»Рё, Рё СѓСЂРѕРє РЅР°С‡Р°Р»СЃСЏ.' gapida bogвЂlovchi qaysi?", options: ["РїСЂРёС€Р»Рё", "СѓСЂРѕРє", "Рё", "РЅР°С‡Р°Р»СЃСЏ"], correctAnswer: 2 },
-                { question: "'РќРµ' qaysi qatorda alohida yoziladi?", options: ["(РЅРµ)РєСЂР°СЃРёРІС‹Р№ РґРѕРј", "(РЅРµ)Р±РѕР»СЊС€РѕР№ РјСЏС‡", "(РЅРµ)С‡РёС‚Р°Р» РєРЅРёРіСѓ", "(РЅРµ)РІС‹СЃРѕРєРёР№ СЃС‚РѕР»"], correctAnswer: 2 },
-                { question: "'РЎРјРµР»РѕСЃС‚СЊ' soвЂzi qaysi soвЂzdan yasalgan?", options: ["РЎРјРµР»С‹Р№", "РЎРјРµР»Рѕ", "РћСЃРјРµР»РµС‚СЊ", "РЎРјРµР»СЊС‡Р°Рє\nChalgвЂituvchi savollar"], correctAnswer: 0 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Если пойдёт дождь, мы останемся дома.' gap turi qaysi?", options: ["Sodda gap", "Qo‘shma gap", "Undov gap", "Atov gap"], correctAnswer: 1 },
+                { question: "'Переписать' so‘zida prefiks qaysi?", options: ["писать", "пере-", "-ать", "-пис-"], correctAnswer: 1 },
+                { question: "'Лесник' so‘zida suffiksni toping.", options: ["лес", "-ник", "-ик", "-к"], correctAnswer: 1 },
+                { question: "'Красивее' so‘zi nimani bildiradi?", options: ["Sifatning oddiy darajasi", "Sifatning qiyosiy darajasi", "Fe'l shakli", "Ravish"], correctAnswer: 1 },
+                { question: "'Я, ты, он, она' qaysi turkumga kiradi?", options: ["Son", "Olmosh", "Sifat", "Fe'l"], correctAnswer: 1 },
+                { question: "'Вечером' so‘zi qaysi savolga javob beradi?", options: ["Кто?", "Что?", "Когда?", "Какой?"], correctAnswer: 2 },
+                { question: "'Читать книгу' birikmasida bosh so‘z qaysi?", options: ["Читать", "Книгу", "Ikkalasi teng", "Bosh so‘z yo‘q"], correctAnswer: 0 },
+                { question: "'Ребята пришли, и урок начался.' gapida bog‘lovchi qaysi?", options: ["пришли", "урок", "и", "начался"], correctAnswer: 2 },
+                { question: "'Не' qaysi qatorda alohida yoziladi?", options: ["(не)красивый дом", "(не)большой мяч", "(не)читал книгу", "(не)высокий стол"], correctAnswer: 2 },
+                { question: "'Смелость' so‘zi qaysi so‘zdan yasalgan?", options: ["Смелый", "Смело", "Осмелеть", "Смельчак\nChalg‘ituvchi savollar"], correctAnswer: 0 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi qatorda faqat xizmatchi soвЂzlar berilgan?", options: ["Р, РІ, РЅР°", "Р”РѕРј, РІ, РЅР°", "Р‘С‹СЃС‚СЂРѕ, Рё, РЅР°", "РЇ, С‚С‹, Рё"], correctAnswer: 0 },
-                { question: "'РњС‹ СѓРІРёРґРµР»Рё РєСЂР°СЃРёРІС‹Р№ РіРѕСЂРѕРґ.' gapida toвЂldiruvchi qaysi?", options: ["РњС‹", "РЈРІРёРґРµР»Рё", "РљСЂР°СЃРёРІС‹Р№", "РіРѕСЂРѕРґ"], correctAnswer: 3 },
-                { question: "'РЁРєРѕР»СЊРЅС‹Р№' soвЂzi qaysi soвЂzdan yasalgan?", options: ["РЁРєРѕР»Р°", "РЁРєРѕР»СЊРЅРёРє", "РЁРєРѕР»СЏСЂ", "РЈС‡С‘Р±Р°"], correctAnswer: 0 },
-                { question: "Qaysi gap undov gap hisoblanadi?", options: ["РњС‹ РёРґС‘Рј РІ РїР°СЂРє.", "РљР°Рє РєСЂР°СЃРёРІРѕ РІРѕРєСЂСѓРі!", "РљС‚Рѕ РїСЂРёС€С‘Р»?", "РќР° СѓР»РёС†Рµ СЃРЅРµРі."], correctAnswer: 1 },
-                { question: "'РЎРµРІРµСЂ' soвЂzining antonimi qaysi?", options: ["Р—Р°РїР°Рґ", "Р’РѕСЃС‚РѕРє", "Р®Рі", "Р’РІРµСЂС…"], correctAnswer: 2 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi qatorda faqat xizmatchi so‘zlar berilgan?", options: ["И, в, на", "Дом, в, на", "Быстро, и, на", "Я, ты, и"], correctAnswer: 0 },
+                { question: "'Мы увидели красивый город.' gapida to‘ldiruvchi qaysi?", options: ["Мы", "Увидели", "Красивый", "город"], correctAnswer: 3 },
+                { question: "'Школьный' so‘zi qaysi so‘zdan yasalgan?", options: ["Школа", "Школьник", "Школяр", "Учёба"], correctAnswer: 0 },
+                { question: "Qaysi gap undov gap hisoblanadi?", options: ["Мы идём в парк.", "Как красиво вокруг!", "Кто пришёл?", "На улице снег."], correctAnswer: 1 },
+                { question: "'Север' so‘zining antonimi qaysi?", options: ["Запад", "Восток", "Юг", "Вверх"], correctAnswer: 2 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         6: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi soвЂz ot hisoblanadi?", options: ["Р›РµСЃ", "Р—РµР»С‘РЅС‹Р№", "Р‘РµР¶Р°С‚СЊ", "Р‘С‹СЃС‚СЂРѕ"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz sifat hisoblanadi?", options: ["РЎРјРµР»С‹Р№", "Р”РѕРј", "РРіСЂР°С‚СЊ", "Р’С‡РµСЂР°"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz fe'l hisoblanadi?", options: ["РљРЅРёРіР°", "РџРёСЃР°С‚СЊ", "РЎРёРЅРёР№", "РўРёС…Рѕ"], correctAnswer: 1 },
-                { question: "Qaysi soвЂz olmosh hisoblanadi?", options: ["РћРЅ", "РЎС‚РѕР»", "РљСЂР°СЃРёРІС‹Р№", "РЈСЂРѕРє"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz ravish hisoblanadi?", options: ["Р‘С‹СЃС‚СЂРѕ", "Р‘С‹СЃС‚СЂС‹Р№", "РЎРєРѕСЂРѕСЃС‚СЊ", "Р‘РµРі\nQiyinroq savollar"], correctAnswer: 0 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi so‘z ot hisoblanadi?", options: ["Лес", "Зелёный", "Бежать", "Быстро"], correctAnswer: 0 },
+                { question: "Qaysi so‘z sifat hisoblanadi?", options: ["Смелый", "Дом", "Играть", "Вчера"], correctAnswer: 0 },
+                { question: "Qaysi so‘z fe'l hisoblanadi?", options: ["Книга", "Писать", "Синий", "Тихо"], correctAnswer: 1 },
+                { question: "Qaysi so‘z olmosh hisoblanadi?", options: ["Он", "Стол", "Красивый", "Урок"], correctAnswer: 0 },
+                { question: "Qaysi so‘z ravish hisoblanadi?", options: ["Быстро", "Быстрый", "Скорость", "Бег\nQiyinroq savollar"], correctAnswer: 0 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РџРѕРґРїРёСЃР°С‚СЊ' soвЂzida prefiksni toping.", options: ["-РїРёСЃ-", "РїРѕРґ-", "-Р°С‚СЊ", "РїРёСЃР°С‚СЊ"], correctAnswer: 1 },
-                { question: "'Р›РµСЃРЅРѕР№' soвЂzida oвЂzak qaysi?", options: ["Р»РµСЃ", "-РЅРѕР№", "Р»Рµ-", "-РѕР№"], correctAnswer: 0 },
-                { question: "'Р”РѕР±СЂРѕС‚Р°' soвЂzida suffiksni toping.", options: ["РґРѕР±СЂ", "-РѕС‚-", "-Р°", "РґРѕ-"], correctAnswer: 1 },
-                { question: "Qaysi gapda ega toвЂgвЂri koвЂrsatilgan? 'РЈС‡РµРЅРёРєРё РїРёС€СѓС‚ РґРёРєС‚Р°РЅС‚.'", options: ["РїРёС€СѓС‚", "РґРёРєС‚Р°РЅС‚", "СѓС‡РµРЅРёРєРё", "РїРёС€СѓС‚ РґРёРєС‚Р°РЅС‚"], correctAnswer: 2 },
-                { question: "Qaysi gapda kesim toвЂgвЂri koвЂrsatilgan? 'РџС‚РёС†С‹ СѓР»РµС‚РµР»Рё РЅР° СЋРі.'", options: ["РїС‚РёС†С‹", "СѓР»РµС‚РµР»Рё", "СЋРі", "РЅР° СЋРі"], correctAnswer: 1 },
-                { question: "'РљСЂР°СЃРёРІС‹Р№' soвЂzining antonimini toping.", options: ["РџСЂРµРєСЂР°СЃРЅС‹Р№", "РќР°СЂСЏРґРЅС‹Р№", "РќРµРєСЂР°СЃРёРІС‹Р№", "РЎРІРµС‚Р»С‹Р№"], correctAnswer: 2 },
-                { question: "'РЎРјРµР»С‹Р№' soвЂzining sinonimini toping.", options: ["РҐСЂР°Р±СЂС‹Р№", "РўСЂСѓСЃР»РёРІС‹Р№", "РЎР»Р°Р±С‹Р№", "Р“СЂСѓСЃС‚РЅС‹Р№"], correctAnswer: 0 },
-                { question: "'РЇ С‡РёС‚Р°СЋ РєРЅРёРіСѓ.' gapida toвЂldiruvchi qaysi?", options: ["РЇ", "С‡РёС‚Р°СЋ", "РєРЅРёРіСѓ", "С‡РёС‚Р°СЋ РєРЅРёРіСѓ"], correctAnswer: 2 },
-                { question: "'РќР° СѓР»РёС†Рµ С…РѕР»РѕРґРЅРѕ, РЅРѕ СЃРѕР»РЅРµС‡РЅРѕ.' gapida bogвЂlovchini toping.", options: ["РЅР°", "РЅРѕ", "СѓР»РёС†Рµ", "С…РѕР»РѕРґРЅРѕ"], correctAnswer: 1 },
-                { question: "'РњС‹ РІРµСЂРЅСѓР»РёСЃСЊ РґРѕРјРѕР№ РІРµС‡РµСЂРѕРј.' gapida qachon? soвЂrogвЂiga javob boвЂladigan soвЂz qaysi?", options: ["РјС‹", "РІРµСЂРЅСѓР»РёСЃСЊ", "РґРѕРјРѕР№", "РІРµС‡РµСЂРѕРј\nChalgвЂituvchi savollar"], correctAnswer: 3 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Подписать' so‘zida prefiksni toping.", options: ["-пис-", "под-", "-ать", "писать"], correctAnswer: 1 },
+                { question: "'Лесной' so‘zida o‘zak qaysi?", options: ["лес", "-ной", "ле-", "-ой"], correctAnswer: 0 },
+                { question: "'Доброта' so‘zida suffiksni toping.", options: ["добр", "-от-", "-а", "до-"], correctAnswer: 1 },
+                { question: "Qaysi gapda ega to‘g‘ri ko‘rsatilgan? 'Ученики пишут диктант.'", options: ["пишут", "диктант", "ученики", "пишут диктант"], correctAnswer: 2 },
+                { question: "Qaysi gapda kesim to‘g‘ri ko‘rsatilgan? 'Птицы улетели на юг.'", options: ["птицы", "улетели", "юг", "на юг"], correctAnswer: 1 },
+                { question: "'Красивый' so‘zining antonimini toping.", options: ["Прекрасный", "Нарядный", "Некрасивый", "Светлый"], correctAnswer: 2 },
+                { question: "'Смелый' so‘zining sinonimini toping.", options: ["Храбрый", "Трусливый", "Слабый", "Грустный"], correctAnswer: 0 },
+                { question: "'Я читаю книгу.' gapida to‘ldiruvchi qaysi?", options: ["Я", "читаю", "книгу", "читаю книгу"], correctAnswer: 2 },
+                { question: "'На улице холодно, но солнечно.' gapida bog‘lovchini toping.", options: ["на", "но", "улице", "холодно"], correctAnswer: 1 },
+                { question: "'Мы вернулись домой вечером.' gapida qachon? so‘rog‘iga javob bo‘ladigan so‘z qaysi?", options: ["мы", "вернулись", "домой", "вечером\nChalg‘ituvchi savollar"], correctAnswer: 3 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi soвЂz koвЂplikda berilgan?", options: ["РўРµС‚СЂР°РґСЊ", "РЈС‡РёС‚РµР»СЊ", "Р”РѕРјР°", "РћРєРЅРѕ"], correctAnswer: 2 },
-                { question: "'РЎРёР»СЊРЅРµРµ' soвЂzi nimani bildiradi?", options: ["Sifatning oddiy darajasi", "Sifatning orttirma darajasi", "Sifatning qiyosiy darajasi", "Fe'l"], correctAnswer: 2 },
-                { question: "'Р’ Р»РµСЃСѓ' birikmasida predlog qaysi?", options: ["РІ", "Р»РµСЃСѓ", "Р»РµСЃ", "Сѓ"], correctAnswer: 0 },
-                { question: "Qaysi qatorda faqat undov gap berilgan?", options: ["РљР°Рє РєСЂР°СЃРёРІРѕ!", "РњС‹ РїСЂРёС€Р»Рё РґРѕРјРѕР№.", "РљС‚Рѕ СЌС‚Рѕ?", "РќР° СѓР»РёС†Рµ РґРѕР¶РґСЊ."], correctAnswer: 0 },
-                { question: "'Р§С‚РµРЅРёРµ' soвЂzi qaysi soвЂzdan yasalgan?", options: ["Р§С‚РёС‚СЊ", "Р§РёС‚Р°С‚СЊ", "Р§С‚РµС†", "РџСЂРѕС‡РёС‚Р°С‚СЊ"], correctAnswer: 1 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi so‘z ko‘plikda berilgan?", options: ["Тетрадь", "Учитель", "Дома", "Окно"], correctAnswer: 2 },
+                { question: "'Сильнее' so‘zi nimani bildiradi?", options: ["Sifatning oddiy darajasi", "Sifatning orttirma darajasi", "Sifatning qiyosiy darajasi", "Fe'l"], correctAnswer: 2 },
+                { question: "'В лесу' birikmasida predlog qaysi?", options: ["в", "лесу", "лес", "у"], correctAnswer: 0 },
+                { question: "Qaysi qatorda faqat undov gap berilgan?", options: ["Как красиво!", "Мы пришли домой.", "Кто это?", "На улице дождь."], correctAnswer: 0 },
+                { question: "'Чтение' so‘zi qaysi so‘zdan yasalgan?", options: ["Чтить", "Читать", "Чтец", "Прочитать"], correctAnswer: 1 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         7: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi soвЂz turkumi harakatni bildiradi?", options: ["Ot", "Sifat", "Fe'l", "Olmosh"], correctAnswer: 2 },
-                { question: "Qaysi soвЂz sifatdosh emas, oddiy sifat?", options: ["Р§РёС‚Р°СЋС‰РёР№", "РљСЂР°СЃРёРІС‹Р№", "РќР°РїРёСЃР°РЅРЅС‹Р№", "РЎРґРµР»Р°РЅРЅС‹Р№"], correctAnswer: 1 },
-                { question: "Qaysi soвЂz ravish hisoblanadi?", options: ["Р’С‹СЃРѕС‚Р°", "Р’С‹СЃРѕРєРёР№", "Р’С‹СЃРѕРєРѕ", "РџРѕРІС‹СЃРёС‚СЊ"], correctAnswer: 2 },
-                { question: "Qaysi gap soвЂroq gap?", options: ["РњС‹ С‡РёС‚Р°РµРј РєРЅРёРіСѓ.", "Р“РґРµ РЅР°С…РѕРґРёС‚СЃСЏ С€РєРѕР»Р°?", "РљР°РєРѕР№ С‡СѓРґРµСЃРЅС‹Р№ РґРµРЅСЊ!", "РЎРЅРµРі РёРґС‘С‚."], correctAnswer: 1 },
-                { question: "Qaysi bogвЂlovchi zidlov ma'nosini bildiradi?", options: ["Рё", "РёР»Рё", "РЅРѕ", "С‡С‚РѕР±С‹\nQiyinroq savollar"], correctAnswer: 2 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi so‘z turkumi harakatni bildiradi?", options: ["Ot", "Sifat", "Fe'l", "Olmosh"], correctAnswer: 2 },
+                { question: "Qaysi so‘z sifatdosh emas, oddiy sifat?", options: ["Читающий", "Красивый", "Написанный", "Сделанный"], correctAnswer: 1 },
+                { question: "Qaysi so‘z ravish hisoblanadi?", options: ["Высота", "Высокий", "Высоко", "Повысить"], correctAnswer: 2 },
+                { question: "Qaysi gap so‘roq gap?", options: ["Мы читаем книгу.", "Где находится школа?", "Какой чудесный день!", "Снег идёт."], correctAnswer: 1 },
+                { question: "Qaysi bog‘lovchi zidlov ma'nosini bildiradi?", options: ["и", "или", "но", "чтобы\nQiyinroq savollar"], correctAnswer: 2 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РџСЂРѕС‡РёС‚Р°РЅРЅР°СЏ РєРЅРёРіР°' birikmasida 'РїСЂРѕС‡РёС‚Р°РЅРЅР°СЏ' qaysi turkumga kiradi?", options: ["Ravishdosh", "Sifatdosh", "Fe'l", "Ravish"], correctAnswer: 1 },
-                { question: "'РЈР»С‹Р±Р°СЏСЃСЊ, РґРµРІРѕС‡РєР° РІРѕС€Р»Р° РІ РєР»Р°СЃСЃ.' gapida ravishdosh qaysi?", options: ["РґРµРІРѕС‡РєР°", "РІРѕС€Р»Р°", "СѓР»С‹Р±Р°СЏСЃСЊ", "РІ РєР»Р°СЃСЃ"], correctAnswer: 2 },
-                { question: "'РћРЅ СЃРєР°Р·Р°Р», С‡С‚Рѕ РїСЂРёРґС‘С‚ Р·Р°РІС‚СЂР°.' gap turi qaysi?", options: ["Sodda gap", "QoвЂshma gap", "Atov gap", "Undov gap"], correctAnswer: 1 },
-                { question: "'РќРµРІС‹СЃРѕРєРёР№' soвЂzi qaysi holatda yozilgan?", options: ["'РЅРµ' alohida yozilgan", "'РЅРµ' qoвЂshib yozilgan", "Defis bilan yozilgan", "Qavs ichida yozilgan"], correctAnswer: 1 },
-                { question: "'РџРѕС‚РѕРјСѓ С‡С‚Рѕ' qaysi turkumga kiradi?", options: ["Yuklama", "Predlog", "BogвЂlovchi", "Undov soвЂz"], correctAnswer: 2 },
-                { question: "'Р•СЃР»Рё Р±СѓРґРµС‚ С‚РµРїР»Рѕ, РјС‹ РїРѕР№РґС‘Рј РіСѓР»СЏС‚СЊ.' gapida ergash gap qaysi?", options: ["РјС‹ РїРѕР№РґС‘Рј РіСѓР»СЏС‚СЊ", "РµСЃР»Рё Р±СѓРґРµС‚ С‚РµРїР»Рѕ", "РјС‹ РїРѕР№РґС‘Рј", "Р±СѓРґРµС‚ С‚РµРїР»Рѕ РјС‹"], correctAnswer: 1 },
-                { question: "'РћРЅ РіРѕРІРѕСЂРёР» СѓРІРµСЂРµРЅРЅРѕ.' gapida ravish qaysi?", options: ["РѕРЅ", "РіРѕРІРѕСЂРёР»", "СѓРІРµСЂРµРЅРЅРѕ", "РіРѕРІРѕСЂРёР» СѓРІРµСЂРµРЅРЅРѕ"], correctAnswer: 2 },
-                { question: "'Р—РёРјРЅРёР№' soвЂzi qaysi soвЂzdan yasalgan?", options: ["Р—РёРјР°", "Р—РёРјРѕРІР°С‚СЊ", "Р—РёРјРЅРёР№ СЃР°Рґ", "РћР·РёРјСЊ"], correctAnswer: 0 },
-                { question: "'РџСЂРµРєСЂР°СЃРЅС‹Р№' soвЂzining sinonimini toping.", options: ["РЈР¶Р°СЃРЅС‹Р№", "РљСЂР°СЃРёРІС‹Р№", "РҐРѕР»РѕРґРЅС‹Р№", "РќРёР·РєРёР№"], correctAnswer: 1 },
-                { question: "'РћРєРЅРѕ Р±С‹Р»Рѕ РѕС‚РєСЂС‹С‚Рѕ РІРµС‚СЂРѕРј.' gapida 'РІРµС‚СЂРѕРј' qaysi boвЂlak?", options: ["Ega", "Kesim", "Hol", "ToвЂldiruvchi\nChalgвЂituvchi savollar"], correctAnswer: 3 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Прочитанная книга' birikmasida 'прочитанная' qaysi turkumga kiradi?", options: ["Ravishdosh", "Sifatdosh", "Fe'l", "Ravish"], correctAnswer: 1 },
+                { question: "'Улыбаясь, девочка вошла в класс.' gapida ravishdosh qaysi?", options: ["девочка", "вошла", "улыбаясь", "в класс"], correctAnswer: 2 },
+                { question: "'Он сказал, что придёт завтра.' gap turi qaysi?", options: ["Sodda gap", "Qo‘shma gap", "Atov gap", "Undov gap"], correctAnswer: 1 },
+                { question: "'Невысокий' so‘zi qaysi holatda yozilgan?", options: ["'не' alohida yozilgan", "'не' qo‘shib yozilgan", "Defis bilan yozilgan", "Qavs ichida yozilgan"], correctAnswer: 1 },
+                { question: "'Потому что' qaysi turkumga kiradi?", options: ["Yuklama", "Predlog", "Bog‘lovchi", "Undov so‘z"], correctAnswer: 2 },
+                { question: "'Если будет тепло, мы пойдём гулять.' gapida ergash gap qaysi?", options: ["мы пойдём гулять", "если будет тепло", "мы пойдём", "будет тепло мы"], correctAnswer: 1 },
+                { question: "'Он говорил уверенно.' gapida ravish qaysi?", options: ["он", "говорил", "уверенно", "говорил уверенно"], correctAnswer: 2 },
+                { question: "'Зимний' so‘zi qaysi so‘zdan yasalgan?", options: ["Зима", "Зимовать", "Зимний сад", "Озимь"], correctAnswer: 0 },
+                { question: "'Прекрасный' so‘zining sinonimini toping.", options: ["Ужасный", "Красивый", "Холодный", "Низкий"], correctAnswer: 1 },
+                { question: "'Окно было открыто ветром.' gapida 'ветром' qaysi bo‘lak?", options: ["Ega", "Kesim", "Hol", "To‘ldiruvchi\nChalg‘ituvchi savollar"], correctAnswer: 3 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi soвЂzda qoвЂshimcha ma'no beruvchi prefiks bor?", options: ["Р”РѕРј", "РҐРѕРґ", "РџСЂРёС…РѕРґ", "РџРѕР»Рµ"], correctAnswer: 2 },
-                { question: "'Р§РёС‚Р°СЏ РєРЅРёРіСѓ, РѕРЅ РґРµР»Р°Р» Р·Р°РјРµС‚РєРё.' gapida nechta grammatik asos bor?", options: ["1 ta", "2 ta", "3 ta", "YoвЂq"], correctAnswer: 0 },
-                { question: "'РўСѓРјР°РЅ СЂР°СЃСЃРµСЏР»СЃСЏ, Рё СЃС‚Р°Р»Рѕ СЏСЃРЅРѕ.' gapida bogвЂlovchi qaysi?", options: ["СЃС‚Р°Р»Рѕ", "СЏСЃРЅРѕ", "Рё", "С‚СѓРјР°РЅ"], correctAnswer: 2 },
-                { question: "'РќРµРіСЂРѕРјРєРѕ' soвЂzi qaysi soвЂz turkumiga kiradi?", options: ["Ot", "Sifat", "Ravish", "Fe'l"], correctAnswer: 2 },
-                { question: "'РљРѕС‚РѕСЂС‹Р№' soвЂzi koвЂpincha qaysi vazifada ishlatiladi?", options: ["SoвЂroq yoki bogвЂlovchi soвЂz", "Predlog", "Undov", "Fe'l"], correctAnswer: 0 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi so‘zda qo‘shimcha ma'no beruvchi prefiks bor?", options: ["Дом", "Ход", "Приход", "Поле"], correctAnswer: 2 },
+                { question: "'Читая книгу, он делал заметки.' gapida nechta grammatik asos bor?", options: ["1 ta", "2 ta", "3 ta", "Yo‘q"], correctAnswer: 0 },
+                { question: "'Туман рассеялся, и стало ясно.' gapida bog‘lovchi qaysi?", options: ["стало", "ясно", "и", "туман"], correctAnswer: 2 },
+                { question: "'Негромко' so‘zi qaysi so‘z turkumiga kiradi?", options: ["Ot", "Sifat", "Ravish", "Fe'l"], correctAnswer: 2 },
+                { question: "'Который' so‘zi ko‘pincha qaysi vazifada ishlatiladi?", options: ["So‘roq yoki bog‘lovchi so‘z", "Predlog", "Undov", "Fe'l"], correctAnswer: 0 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         8: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi gap qoвЂshma gap hisoblanadi?", options: ["РЎРѕР»РЅС†Рµ СЃРІРµС‚РёС‚, Рё РїС‚РёС†С‹ РїРѕСЋС‚.", "РЇ РІРѕС€С‘Р» РІ РєР»Р°СЃСЃ Рё СЃРµР» Р·Р° РїР°СЂС‚Сѓ.", "Р’РµС‡РµСЂ.", "РўРёС€РёРЅР°."], correctAnswer: 0 },
-                { question: "Qaysi soвЂz ravishdosh hisoblanadi?", options: ["Р”РµР»Р°СЏ", "РЎРґРµР»Р°РЅРЅС‹Р№", "Р”РµР»РѕРІРѕР№", "Р”РµР»Рѕ"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz sifatdosh hisoblanadi?", options: ["РРґСЏ", "Р§РёС‚Р°РІС€РёР№", "Р‘С‹СЃС‚СЂРѕ", "Р‘РµРі"], correctAnswer: 1 },
-                { question: "Qaysi qatorda faqat predloglar berilgan?", options: ["Рё, РЅРѕ, Р°", "РІ, РЅР°, РїРѕРґ", "РЅРµ, РЅРё, Р¶Рµ", "РѕР№, Р°С…, СѓРІС‹"], correctAnswer: 1 },
-                { question: "Qaysi gap undov gap hisoblanadi?", options: ["РљС‚Рѕ РїСЂРёС€С‘Р»?", "РњС‹ Р±С‹Р»Рё РґРѕРјР°.", "РљР°Рє РїСЂРµРєСЂР°СЃРµРЅ СЌС‚РѕС‚ РјРёСЂ!", "РќР°СЃС‚СѓРїРёР»Р° РѕСЃРµРЅСЊ.\nQiyinroq savollar"], correctAnswer: 2 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi gap qo‘shma gap hisoblanadi?", options: ["Солнце светит, и птицы поют.", "Я вошёл в класс и сел за парту.", "Вечер.", "Тишина."], correctAnswer: 0 },
+                { question: "Qaysi so‘z ravishdosh hisoblanadi?", options: ["Делая", "Сделанный", "Деловой", "Дело"], correctAnswer: 0 },
+                { question: "Qaysi so‘z sifatdosh hisoblanadi?", options: ["Идя", "Читавший", "Быстро", "Бег"], correctAnswer: 1 },
+                { question: "Qaysi qatorda faqat predloglar berilgan?", options: ["и, но, а", "в, на, под", "не, ни, же", "ой, ах, увы"], correctAnswer: 1 },
+                { question: "Qaysi gap undov gap hisoblanadi?", options: ["Кто пришёл?", "Мы были дома.", "Как прекрасен этот мир!", "Наступила осень.\nQiyinroq savollar"], correctAnswer: 2 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РљРѕРіРґР° РЅР°С‡Р°Р»СЃСЏ РґРѕР¶РґСЊ, РјС‹ Р·Р°С€Р»Рё РІ РґРѕРј.' gapida ergash gap qaysi?", options: ["РјС‹ Р·Р°С€Р»Рё РІ РґРѕРј", "РєРѕРіРґР° РЅР°С‡Р°Р»СЃСЏ РґРѕР¶РґСЊ", "РјС‹ Р·Р°С€Р»Рё", "РЅР°С‡Р°Р»СЃСЏ РґРѕР¶РґСЊ РјС‹"], correctAnswer: 1 },
-                { question: "'РќРµСЃРјРѕС‚СЂСЏ РЅР° РґРѕР¶РґСЊ, РјР°С‚С‡ СЃРѕСЃС‚РѕСЏР»СЃСЏ.' birikmasidagi 'РЅРµСЃРјРѕС‚СЂСЏ РЅР°' nimaga kiradi?", options: ["BogвЂlovchi", "Murakkab predlog", "Yuklama", "Undov"], correctAnswer: 1 },
-                { question: "'Р§РµР»РѕРІРµРє, РєРѕС‚РѕСЂС‹Р№ СЃС‚РѕРёС‚ Сѓ РѕРєРЅР°, РјРѕР№ Р±СЂР°С‚.' gapida 'РєРѕС‚РѕСЂС‹Р№ СЃС‚РѕРёС‚ Сѓ РѕРєРЅР°' qaysi qism?", options: ["Ega", "Aniqlovchi ergash gap", "Kesim", "Ravish holi"], correctAnswer: 1 },
-                { question: "'РќРµ Р±С‹Р» РіРѕС‚РѕРІ' birikmasida 'РЅРµ' qanday yoziladi?", options: ["QoвЂshib", "Ajratib", "Defis bilan", "Ikkalasi ham mumkin emas"], correctAnswer: 1 },
-                { question: "'РћРЅ РЅРµ С‚РѕР»СЊРєРѕ С‡РёС‚Р°Р», РЅРѕ Рё Р·Р°РїРёСЃС‹РІР°Р».' gapida qanday bogвЂlovchi konstruktsiya ishlatilgan?", options: ["Yakka bogвЂlovchi", "Takror bogвЂlovchi", "Juft bogвЂlovchi", "BogвЂlovchisiz"], correctAnswer: 2 },
-                { question: "'РџСЂРёРµС…Р°РІ РІ РіРѕСЂРѕРґ, С‚СѓСЂРёСЃС‚С‹ СЃСЂР°Р·Сѓ РїРѕС€Р»Рё РІ РјСѓР·РµР№.' gapida ravishdosh birikmani toping.", options: ["С‚СѓСЂРёСЃС‚С‹ СЃСЂР°Р·Сѓ", "РїРѕС€Р»Рё РІ РјСѓР·РµР№", "РїСЂРёРµС…Р°РІ РІ РіРѕСЂРѕРґ", "СЃСЂР°Р·Сѓ РїРѕС€Р»Рё"], correctAnswer: 2 },
-                { question: "'РЎРєР°Р·Р°РЅРЅРѕРµ СЃР»РѕРІРѕ РЅРµ РІРµСЂРЅС‘С€СЊ.' gapida 'СЃРєР°Р·Р°РЅРЅРѕРµ' qaysi turkum?", options: ["Ravishdosh", "Sifatdosh", "Ravish", "Fe'l"], correctAnswer: 1 },
-                { question: "'Р•СЃР»Рё Р±С‹ СЏ Р·РЅР°Р», СЏ Р±С‹ РїСЂРёС€С‘Р» СЂР°РЅСЊС€Рµ.' gapida qanday ma'no ifodalangan?", options: ["Shart", "Payt", "Sabab", "Zidlov"], correctAnswer: 0 },
-                { question: "'Р—Р°СЃС‹РїР°РЅРЅС‹Р№ СЃРЅРµРіРѕРј РґРІРѕСЂ' birikmasida 'СЃРЅРµРіРѕРј' qaysi soвЂroqqa javob boвЂladi?", options: ["РєС‚Рѕ?", "С‡С‚Рѕ?", "С‡РµРј?", "РіРґРµ?"], correctAnswer: 2 },
-                { question: "'РҐРѕС‚СЏ Р±С‹Р»Рѕ РїРѕР·РґРЅРѕ, РґРµС‚Рё РЅРµ СЃРїР°Р»Рё.' gapidagi bogвЂlovchining ma'nosi qaysi?", options: ["Sabab", "Shart", "ToвЂsiqsizlik", "Maqsad\nChalgвЂituvchi savollar"], correctAnswer: 2 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Когда начался дождь, мы зашли в дом.' gapida ergash gap qaysi?", options: ["мы зашли в дом", "когда начался дождь", "мы зашли", "начался дождь мы"], correctAnswer: 1 },
+                { question: "'Несмотря на дождь, матч состоялся.' birikmasidagi 'несмотря на' nimaga kiradi?", options: ["Bog‘lovchi", "Murakkab predlog", "Yuklama", "Undov"], correctAnswer: 1 },
+                { question: "'Человек, который стоит у окна, мой брат.' gapida 'который стоит у окна' qaysi qism?", options: ["Ega", "Aniqlovchi ergash gap", "Kesim", "Ravish holi"], correctAnswer: 1 },
+                { question: "'Не был готов' birikmasida 'не' qanday yoziladi?", options: ["Qo‘shib", "Ajratib", "Defis bilan", "Ikkalasi ham mumkin emas"], correctAnswer: 1 },
+                { question: "'Он не только читал, но и записывал.' gapida qanday bog‘lovchi konstruktsiya ishlatilgan?", options: ["Yakka bog‘lovchi", "Takror bog‘lovchi", "Juft bog‘lovchi", "Bog‘lovchisiz"], correctAnswer: 2 },
+                { question: "'Приехав в город, туристы сразу пошли в музей.' gapida ravishdosh birikmani toping.", options: ["туристы сразу", "пошли в музей", "приехав в город", "сразу пошли"], correctAnswer: 2 },
+                { question: "'Сказанное слово не вернёшь.' gapida 'сказанное' qaysi turkum?", options: ["Ravishdosh", "Sifatdosh", "Ravish", "Fe'l"], correctAnswer: 1 },
+                { question: "'Если бы я знал, я бы пришёл раньше.' gapida qanday ma'no ifodalangan?", options: ["Shart", "Payt", "Sabab", "Zidlov"], correctAnswer: 0 },
+                { question: "'Засыпанный снегом двор' birikmasida 'снегом' qaysi so‘roqqa javob bo‘ladi?", options: ["кто?", "что?", "чем?", "где?"], correctAnswer: 2 },
+                { question: "'Хотя было поздно, дети не спали.' gapidagi bog‘lovchining ma'nosi qaysi?", options: ["Sabab", "Shart", "To‘siqsizlik", "Maqsad\nChalg‘ituvchi savollar"], correctAnswer: 2 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi qatorda yuklamalar berilgan?", options: ["РЅРµ, РЅРё, Р¶Рµ", "РІ, СЃ, Сѓ", "Рё, Р°, РЅРѕ", "Р°С…, СѓРІС‹, РѕР№"], correctAnswer: 0 },
-                { question: "'РџР°РґР°СЋС‰РёР№ Р»РёСЃС‚' birikmasida 'РїР°РґР°СЋС‰РёР№' qanday sifatdosh?", options: ["OвЂtgan zamon majhul", "Hozirgi zamon faol", "OвЂtgan zamon faol", "Hozirgi zamon majhul"], correctAnswer: 1 },
-                { question: "'Р”РѕРј Р±С‹Р» РїРѕСЃС‚СЂРѕРµРЅ СЂР°Р±РѕС‡РёРјРё.' gapida 'СЂР°Р±РѕС‡РёРјРё' qaysi kelishikda kelgan?", options: ["Bosh kelishik", "Qaratqich kelishigi", "Tushum kelishigi", "Vositali kelishik"], correctAnswer: 3 },
-                { question: "'РЇ Р·РЅР°СЋ, С‡С‚Рѕ РѕРЅ РїСЂР°РІ.' gapida bosh gap qaysi?", options: ["С‡С‚Рѕ РѕРЅ РїСЂР°РІ", "СЏ Р·РЅР°СЋ", "РѕРЅ РїСЂР°РІ", "Р·РЅР°СЋ, С‡С‚Рѕ"], correctAnswer: 1 },
-                { question: "'Р’СЃР»РµРґСЃС‚РІРёРµ СЃРЅРµРіРѕРїР°РґР° РґРѕСЂРѕРіР° Р±С‹Р»Р° Р·Р°РєСЂС‹С‚Р°.' gapida 'РІСЃР»РµРґСЃС‚РІРёРµ' nimaga kiradi?", options: ["Ravish", "BogвЂlovchi", "Hosila predlog", "Yuklama"], correctAnswer: 2 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi qatorda yuklamalar berilgan?", options: ["не, ни, же", "в, с, у", "и, а, но", "ах, увы, ой"], correctAnswer: 0 },
+                { question: "'Падающий лист' birikmasida 'падающий' qanday sifatdosh?", options: ["O‘tgan zamon majhul", "Hozirgi zamon faol", "O‘tgan zamon faol", "Hozirgi zamon majhul"], correctAnswer: 1 },
+                { question: "'Дом был построен рабочими.' gapida 'рабочими' qaysi kelishikda kelgan?", options: ["Bosh kelishik", "Qaratqich kelishigi", "Tushum kelishigi", "Vositali kelishik"], correctAnswer: 3 },
+                { question: "'Я знаю, что он прав.' gapida bosh gap qaysi?", options: ["что он прав", "я знаю", "он прав", "знаю, что"], correctAnswer: 1 },
+                { question: "'Вследствие снегопада дорога была закрыта.' gapida 'вследствие' nimaga kiradi?", options: ["Ravish", "Bog‘lovchi", "Hosila predlog", "Yuklama"], correctAnswer: 2 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         9: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi gap ergashgan qoвЂshma gap hisoblanadi?", options: ["РЇ РІРѕС€С‘Р» Рё СЃРµР».", "РљРѕРіРґР° СЃС‚РµРјРЅРµР»Рѕ, РјС‹ РІРµСЂРЅСѓР»РёСЃСЊ РґРѕРјРѕР№.", "РќР° СѓР»РёС†Рµ РґРѕР¶РґСЊ.", "РќР°СЃС‚СѓРїРёР»Р° РЅРѕС‡СЊ."], correctAnswer: 1 },
-                { question: "Qaysi soвЂz birikmasi ravishdoshli birikma hisoblanadi?", options: ["Р§РёС‚Р°СЋС‰РёР№ РєРЅРёРіСѓ", "РџСЂРѕС‡РёС‚Р°РЅРЅР°СЏ РєРЅРёРіР°", "Р§РёС‚Р°СЏ РєРЅРёРіСѓ", "РљРЅРёРіР° РїСЂРѕС‡РёС‚Р°РЅР°"], correctAnswer: 2 },
-                { question: "Qaysi vosita koвЂchirma gapni ifodalashda ishlatiladi?", options: ["Ikki nuqta va tirnoq", "Faqat vergul", "Faqat nuqta", "Faqat soвЂroq belgisi"], correctAnswer: 0 },
-                { question: "Qaysi qatorda kirish soвЂz bor?", options: ["Рљ СЃС‡Р°СЃС‚СЊСЋ, РїРѕРµР·Рґ РїСЂРёС€С‘Р» РІРѕРІСЂРµРјСЏ.", "РџРѕРµР·Рґ РїСЂРёС€С‘Р» РІРѕРІСЂРµРјСЏ.", "РњС‹ Р¶РґР°Р»Рё РїРѕРµР·Рґ.", "РџРѕРµР·Рґ СѓРµС…Р°Р» Р±С‹СЃС‚СЂРѕ."], correctAnswer: 0 },
-                { question: "Qaysi gapda umumlashtiruvchi soвЂz bor?", options: ["РќР° СЃС‚РѕР»Рµ Р»РµР¶Р°Р»Рё РєРЅРёРіРё, С‚РµС‚СЂР°РґРё, СЂСѓС‡РєРё вЂ” РІСЃС‘ Р±С‹Р»Рѕ РіРѕС‚РѕРІРѕ Рє СѓСЂРѕРєСѓ.", "РњС‹ СЃРёРґРµР»Рё РґРѕРјР°.", "РќР°СЃС‚СѓРїРёР»Р° РІРµСЃРЅР°.", "РћРЅ Р±С‹СЃС‚СЂРѕ РѕС‚РІРµС‚РёР».\nQiyinroq savollar"], correctAnswer: 0 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi gap ergashgan qo‘shma gap hisoblanadi?", options: ["Я вошёл и сел.", "Когда стемнело, мы вернулись домой.", "На улице дождь.", "Наступила ночь."], correctAnswer: 1 },
+                { question: "Qaysi so‘z birikmasi ravishdoshli birikma hisoblanadi?", options: ["Читающий книгу", "Прочитанная книга", "Читая книгу", "Книга прочитана"], correctAnswer: 2 },
+                { question: "Qaysi vosita ko‘chirma gapni ifodalashda ishlatiladi?", options: ["Ikki nuqta va tirnoq", "Faqat vergul", "Faqat nuqta", "Faqat so‘roq belgisi"], correctAnswer: 0 },
+                { question: "Qaysi qatorda kirish so‘z bor?", options: ["К счастью, поезд пришёл вовремя.", "Поезд пришёл вовремя.", "Мы ждали поезд.", "Поезд уехал быстро."], correctAnswer: 0 },
+                { question: "Qaysi gapda umumlashtiruvchi so‘z bor?", options: ["На столе лежали книги, тетради, ручки — всё было готово к уроку.", "Мы сидели дома.", "Наступила весна.", "Он быстро ответил.\nQiyinroq savollar"], correctAnswer: 0 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РЇ СѓРІРµСЂРµРЅ, С‡С‚Рѕ РѕРЅ РїСЂРёРґС‘С‚.' gapida ergash gapning turi qaysi?", options: ["Aniqlovchi", "ToвЂldiruvchi", "Payt", "Shart"], correctAnswer: 1 },
-                { question: "'Р”РѕРј, РєРѕС‚РѕСЂС‹Р№ СЃС‚РѕРёС‚ РЅР° С…РѕР»РјРµ, РІРёРґРµРЅ РёР·РґР°Р»РµРєР°.' gapida ergash gap turi qaysi?", options: ["Aniqlovchi", "Sabab", "Maqsad", "Shart"], correctAnswer: 0 },
-                { question: "'Р•СЃР»Рё Р±С‹ РѕРЅ РїРѕР·РІРѕРЅРёР», РјС‹ Р±С‹ РІСЃС‚СЂРµС‚РёР»Рё РµРіРѕ.' gapidagi ergash gap turi qaysi?", options: ["Sabab", "Shart", "Payt", "Maqsad"], correctAnswer: 1 },
-                { question: "'РћРЅ СЃРєР°Р·Р°Р»: В«РЇ РїСЂРёРґСѓ Р·Р°РІС‚СЂР°В».' gapida qanday sintaktik hodisa bor?", options: ["OвЂzlashtirma gap", "KoвЂchirma gap", "Undalma", "Kirish soвЂz"], correctAnswer: 1 },
-                { question: "'РџРѕ СЃР»РѕРІР°Рј СѓС‡РёС‚РµР»СЏ, СЂР°Р±РѕС‚Р° Р±С‹Р»Р° РІС‹РїРѕР»РЅРµРЅР° С…РѕСЂРѕС€Рѕ.' gapida 'РїРѕ СЃР»РѕРІР°Рј СѓС‡РёС‚РµР»СЏ' nimaga kiradi?", options: ["Kirish birikma", "Ega", "Kesim", "Undalma"], correctAnswer: 0 },
-                { question: "'Р”РµСЂРµРІСЊСЏ, РїРѕРєСЂС‹С‚С‹Рµ РёРЅРµРµРј, СЃРІРµСЂРєР°Р»Рё РЅР° СЃРѕР»РЅС†Рµ.' gapida ajratilgan boвЂlak qaysi?", options: ["СЃРІРµСЂРєР°Р»Рё РЅР° СЃРѕР»РЅС†Рµ", "РґРµСЂРµРІСЊСЏ", "РїРѕРєСЂС‹С‚С‹Рµ РёРЅРµРµРј", "РЅР° СЃРѕР»РЅС†Рµ"], correctAnswer: 2 },
-                { question: "'РћРЅ, РєР°Р¶РµС‚СЃСЏ, СѓР¶Рµ СѓС€С‘Р».' gapida vergullar nima sababdan qoвЂyilgan?", options: ["Undalma uchun", "Kirish soвЂz uchun", "Uyushiq boвЂlak uchun", "Ergash gap uchun"], correctAnswer: 1 },
-                { question: "'РќРµ Р·РЅР°СЏ РґРѕСЂРѕРіРё, РјС‹ РІСЃС‘ Р¶Рµ РЅР°С€Р»Рё РґРµСЂРµРІРЅСЋ.' gapida qanday hol bor?", options: ["Ravishdoshli hol", "Aniqlovchi", "ToвЂldiruvchi", "Ega"], correctAnswer: 0 },
-                { question: "'Р’СЃРµ Р±С‹Р»Рё РіРѕС‚РѕРІС‹: Рё СѓС‡РµРЅРёРєРё, Рё СѓС‡РёС‚РµР»СЏ, Рё СЂРѕРґРёС‚РµР»Рё.' gapida ikki nuqta nima uchun qoвЂyilgan?", options: ["KoвЂchirma gapdan oldin", "Umumlashtiruvchi soвЂzdan keyin uyushiq boвЂlaklar kelgani uchun", "Ergash gapdan oldin", "Undovdan keyin"], correctAnswer: 1 },
-                { question: "'Р§РµРј Р±С‹СЃС‚СЂРµРµ РјС‹ С€Р»Рё, С‚РµРј СЂР°РЅСЊС€Рµ РїСЂРёС…РѕРґРёР»Рё.' gapida qanday bogвЂlanish bor?", options: ["Sabab-oqibat", "Qiyosiy munosabat", "Payt munosabati", "Zidlov munosabati\nChalgвЂituvchi savollar"], correctAnswer: 1 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Я уверен, что он придёт.' gapida ergash gapning turi qaysi?", options: ["Aniqlovchi", "To‘ldiruvchi", "Payt", "Shart"], correctAnswer: 1 },
+                { question: "'Дом, который стоит на холме, виден издалека.' gapida ergash gap turi qaysi?", options: ["Aniqlovchi", "Sabab", "Maqsad", "Shart"], correctAnswer: 0 },
+                { question: "'Если бы он позвонил, мы бы встретили его.' gapidagi ergash gap turi qaysi?", options: ["Sabab", "Shart", "Payt", "Maqsad"], correctAnswer: 1 },
+                { question: "'Он сказал: «Я приду завтра».' gapida qanday sintaktik hodisa bor?", options: ["O‘zlashtirma gap", "Ko‘chirma gap", "Undalma", "Kirish so‘z"], correctAnswer: 1 },
+                { question: "'По словам учителя, работа была выполнена хорошо.' gapida 'по словам учителя' nimaga kiradi?", options: ["Kirish birikma", "Ega", "Kesim", "Undalma"], correctAnswer: 0 },
+                { question: "'Деревья, покрытые инеем, сверкали на солнце.' gapida ajratilgan bo‘lak qaysi?", options: ["сверкали на солнце", "деревья", "покрытые инеем", "на солнце"], correctAnswer: 2 },
+                { question: "'Он, кажется, уже ушёл.' gapida vergullar nima sababdan qo‘yilgan?", options: ["Undalma uchun", "Kirish so‘z uchun", "Uyushiq bo‘lak uchun", "Ergash gap uchun"], correctAnswer: 1 },
+                { question: "'Не зная дороги, мы всё же нашли деревню.' gapida qanday hol bor?", options: ["Ravishdoshli hol", "Aniqlovchi", "To‘ldiruvchi", "Ega"], correctAnswer: 0 },
+                { question: "'Все были готовы: и ученики, и учителя, и родители.' gapida ikki nuqta nima uchun qo‘yilgan?", options: ["Ko‘chirma gapdan oldin", "Umumlashtiruvchi so‘zdan keyin uyushiq bo‘laklar kelgani uchun", "Ergash gapdan oldin", "Undovdan keyin"], correctAnswer: 1 },
+                { question: "'Чем быстрее мы шли, тем раньше приходили.' gapida qanday bog‘lanish bor?", options: ["Sabab-oqibat", "Qiyosiy munosabat", "Payt munosabati", "Zidlov munosabati\nChalg‘ituvchi savollar"], correctAnswer: 1 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "Qaysi gapda undalma bor?", options: ["Р”СЂСѓР·СЊСЏ, РґР°РІР°Р№С‚Рµ РЅР°С‡РЅС‘Рј СѓСЂРѕРє.", "Р”СЂСѓР·СЊСЏ РїСЂРёС€Р»Рё РІРѕРІСЂРµРјСЏ.", "РњС‹ РїРѕР·РІР°Р»Рё РґСЂСѓР·РµР№.", "РЎ РґСЂСѓР·СЊСЏРјРё Р±С‹Р»Рѕ РІРµСЃРµР»Рѕ."], correctAnswer: 0 },
-                { question: "'РћРЅ РѕС‚РІРµС‚РёР», С‡С‚Рѕ РЅРµ СЃРјРѕР¶РµС‚ РїСЂРёР№С‚Рё.' gapida 'С‡С‚Рѕ РЅРµ СЃРјРѕР¶РµС‚ РїСЂРёР№С‚Рё' qaysi gap boвЂlagi vazifasida?", options: ["Hol", "Kesim", "ToвЂldiruvchi", "Aniqlovchi"], correctAnswer: 2 },
-                { question: "'РљРЅРёРіР°, Р»РµР¶Р°С‰Р°СЏ РЅР° СЃС‚РѕР»Рµ, РїСЂРёРЅР°РґР»РµР¶РёС‚ РјРЅРµ.' gapida vergullar nima uchun ishlatilgan?", options: ["Kirish soвЂz uchun", "Ajratilgan aniqlovchi uchun", "Undalma uchun", "Uyushiq boвЂlak uchun"], correctAnswer: 1 },
-                { question: "'Р’Рѕ-РїРµСЂРІС‹С…, РЅСѓР¶РЅРѕ РІС‹СЃР»СѓС€Р°С‚СЊ РІСЃРµС….' gapida 'РІРѕ-РїРµСЂРІС‹С…' nimaga kiradi?", options: ["Kirish soвЂz", "Ravish", "Predlogli birikma", "ToвЂldiruvchi"], correctAnswer: 0 },
-                { question: "'РЎРѕР»РЅС†Рµ СЃРµР»Рѕ вЂ” РЅР°С‡Р°Р»СЃСЏ С…РѕР»РѕРґРЅС‹Р№ РІРµС‡РµСЂ.' gapida tire nima vazifada ishlatilgan?", options: ["Uyushiq boвЂlakni ajratish uchun", "Sabab-oqibat yoki tez almashinuvchi voqealarni koвЂrsatish uchun", "Undalmani ajratish uchun", "KoвЂchirma gap uchun"], correctAnswer: 1 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "Qaysi gapda undalma bor?", options: ["Друзья, давайте начнём урок.", "Друзья пришли вовремя.", "Мы позвали друзей.", "С друзьями было весело."], correctAnswer: 0 },
+                { question: "'Он ответил, что не сможет прийти.' gapida 'что не сможет прийти' qaysi gap bo‘lagi vazifasida?", options: ["Hol", "Kesim", "To‘ldiruvchi", "Aniqlovchi"], correctAnswer: 2 },
+                { question: "'Книга, лежащая на столе, принадлежит мне.' gapida vergullar nima uchun ishlatilgan?", options: ["Kirish so‘z uchun", "Ajratilgan aniqlovchi uchun", "Undalma uchun", "Uyushiq bo‘lak uchun"], correctAnswer: 1 },
+                { question: "'Во-первых, нужно выслушать всех.' gapida 'во-первых' nimaga kiradi?", options: ["Kirish so‘z", "Ravish", "Predlogli birikma", "To‘ldiruvchi"], correctAnswer: 0 },
+                { question: "'Солнце село — начался холодный вечер.' gapida tire nima vazifada ishlatilgan?", options: ["Uyushiq bo‘lakni ajratish uchun", "Sabab-oqibat yoki tez almashinuvchi voqealarni ko‘rsatish uchun", "Undalmani ajratish uchun", "Ko‘chirma gap uchun"], correctAnswer: 1 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         10: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi gap ergashgan qoвЂshma gap hisoblanadi?", options: ["РЇ РІРѕС€С‘Р» РІ РєР»Р°СЃСЃ Рё СЃРµР».", "РљРѕРіРґР° РЅР°С‡Р°Р»СЃСЏ СѓСЂРѕРє, РІСЃРµ Р·Р°РјРѕР»С‡Р°Р»Рё.", "РќР° СѓР»РёС†Рµ РґРѕР¶РґСЊ.", "Р”РµСЂРµРІСЊСЏ С€СѓРјСЏС‚."], correctAnswer: 1 },
-                { question: "Qaysi soвЂz ravishdosh hisoblanadi?", options: ["РРґСЏ", "РРґСѓС‰РёР№", "РҐРѕРґСЊР±Р°", "РҐРѕРґРёС‚СЊ"], correctAnswer: 0 },
-                { question: "Qaysi soвЂz sifatdosh hisoblanadi?", options: ["Р§РёС‚Р°СЏ", "РџСЂРѕС‡РёС‚Р°РІ", "Р§РёС‚Р°СЋС‰РёР№", "Р§С‚РµРЅРёРµ"], correctAnswer: 2 },
-                { question: "Qaysi qatorda kirish soвЂz qatnashgan?", options: ["Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ, РїРѕРµР·Рґ РѕРїРѕР·РґР°Р».", "РџРѕРµР·Рґ РѕРїРѕР·РґР°Р» РЅР° С‡Р°СЃ.", "РњС‹ Р¶РґР°Р»Рё РїРѕРµР·Рґ.", "РћРЅ РїСЂРёС€С‘Р» РїРѕР·РґРЅРѕ."], correctAnswer: 0 },
-                { question: "Qaysi gapda undalma bor?", options: ["Р”СЂСѓР·СЊСЏ, РґР°РІР°Р№С‚Рµ РѕР±СЃСѓРґРёРј СЌС‚Рѕ.", "Р”СЂСѓР·СЊСЏ РїСЂРёС€Р»Рё РІРѕРІСЂРµРјСЏ.", "РЇ РІСЃС‚СЂРµС‚РёР» РґСЂСѓР·РµР№.", "РњС‹ РіРѕРІРѕСЂРёР»Рё Рѕ РґСЂСѓР·СЊСЏС….\nQiyinroq savollar"], correctAnswer: 0 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi gap ergashgan qo‘shma gap hisoblanadi?", options: ["Я вошёл в класс и сел.", "Когда начался урок, все замолчали.", "На улице дождь.", "Деревья шумят."], correctAnswer: 1 },
+                { question: "Qaysi so‘z ravishdosh hisoblanadi?", options: ["Идя", "Идущий", "Ходьба", "Ходить"], correctAnswer: 0 },
+                { question: "Qaysi so‘z sifatdosh hisoblanadi?", options: ["Читая", "Прочитав", "Читающий", "Чтение"], correctAnswer: 2 },
+                { question: "Qaysi qatorda kirish so‘z qatnashgan?", options: ["К сожалению, поезд опоздал.", "Поезд опоздал на час.", "Мы ждали поезд.", "Он пришёл поздно."], correctAnswer: 0 },
+                { question: "Qaysi gapda undalma bor?", options: ["Друзья, давайте обсудим это.", "Друзья пришли вовремя.", "Я встретил друзей.", "Мы говорили о друзьях.\nQiyinroq savollar"], correctAnswer: 0 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РЇ Р·РЅР°СЋ, С‡С‚Рѕ СЌРєР·Р°РјРµРЅ Р±СѓРґРµС‚ С‚СЂСѓРґРЅС‹Рј.' gapida ergash gapning turi qaysi?", options: ["Aniqlovchi", "ToвЂldiruvchi", "Payt", "Maqsad"], correctAnswer: 1 },
-                { question: "'Р”РѕРј, РєРѕС‚РѕСЂС‹Р№ РїРѕСЃС‚СЂРѕРёР»Рё РЅРµРґР°РІРЅРѕ, СѓР¶Рµ Р·Р°СЃРµР»С‘РЅ.' gapida ergash gap qaysi turga kiradi?", options: ["Aniqlovchi", "Sabab", "Shart", "Natija"], correctAnswer: 0 },
-                { question: "'Р•СЃР»Рё Р±С‹ Сѓ РјРµРЅСЏ Р±С‹Р»Рѕ РІСЂРµРјСЏ, СЏ Р±С‹ РїСЂРѕС‡РёС‚Р°Р» СЌС‚Сѓ РєРЅРёРіСѓ.' gapida qanday ma'no ifodalangan?", options: ["Sabab", "Payt", "Shart", "Maqsad"], correctAnswer: 2 },
-                { question: "'РћРЅ СЃРєР°Р·Р°Р», С‡С‚Рѕ РІРµСЂРЅС‘С‚СЃСЏ РІРµС‡РµСЂРѕРј.' gapida 'С‡С‚Рѕ РІРµСЂРЅС‘С‚СЃСЏ РІРµС‡РµСЂРѕРј' qaysi vazifani bajaradi?", options: ["Aniqlovchi", "ToвЂldiruvchi", "Hol", "Ega"], correctAnswer: 1 },
-                { question: "'РќРµСЃРјРѕС‚СЂСЏ РЅР° СѓСЃС‚Р°Р»РѕСЃС‚СЊ, СЃРїРѕСЂС‚СЃРјРµРЅ РїСЂРѕРґРѕР»Р¶Р°Р» С‚СЂРµРЅРёСЂРѕРІРєСѓ.' gapidagi 'РЅРµСЃРјРѕС‚СЂСЏ РЅР°' nimaga kiradi?", options: ["BogвЂlovchi", "Murakkab predlog", "Yuklama", "Ravish"], correctAnswer: 1 },
-                { question: "'Р§РµР»РѕРІРµРє, С‡РёС‚Р°СЋС‰РёР№ РєРЅРёРіСѓ Сѓ РѕРєРЅР°, РјРѕР№ Р±СЂР°С‚.' gapida ajratilgan boвЂlak qaysi?", options: ["РјРѕР№ Р±СЂР°С‚", "С‡РµР»РѕРІРµРє", "С‡РёС‚Р°СЋС‰РёР№ РєРЅРёРіСѓ Сѓ РѕРєРЅР°", "Сѓ РѕРєРЅР°"], correctAnswer: 2 },
-                { question: "'Р’Рѕ-РїРµСЂРІС‹С…, РЅСѓР¶РЅРѕ РІРЅРёРјР°С‚РµР»СЊРЅРѕ РїСЂРѕС‡РёС‚Р°С‚СЊ С‚РµРєСЃС‚.' gapida 'РІРѕ-РїРµСЂРІС‹С…' nimaga kiradi?", options: ["Kirish soвЂz", "Ravish", "Undalma", "ToвЂldiruvchi"], correctAnswer: 0 },
-                { question: "'РЈСЃР»С‹С€Р°РІ РЅРѕРІРѕСЃС‚СЊ, РѕРЅ СЃСЂР°Р·Сѓ РїРѕР·РІРѕРЅРёР» РґСЂСѓРіСѓ.' gapida ravishdosh birikma qaysi?", options: ["РѕРЅ СЃСЂР°Р·Сѓ", "РїРѕР·РІРѕРЅРёР» РґСЂСѓРіСѓ", "СѓСЃР»С‹С€Р°РІ РЅРѕРІРѕСЃС‚СЊ", "СЃСЂР°Р·Сѓ РїРѕР·РІРѕРЅРёР»"], correctAnswer: 2 },
-                { question: "'РљР°Рє С‚РѕР»СЊРєРѕ РїСЂРѕР·РІРµРЅРµР» Р·РІРѕРЅРѕРє, СѓС‡РµРЅРёРєРё РІРѕС€Р»Рё РІ РєР»Р°СЃСЃ.' gapida ergash gap turi qaysi?", options: ["Payt", "Sabab", "Maqsad", "Aniqlovchi"], correctAnswer: 0 },
-                { question: "'РћРЅ Р±С‹Р» РЅРµ РіРѕС‚РѕРІ Рє РѕС‚РІРµС‚Сѓ.' birikmasida 'РЅРµ' qanday yoziladi?", options: ["QoвЂshib", "Ajratib", "Defis bilan", "Har doim ikki xil boвЂladi\nChalgвЂituvchi savollar"], correctAnswer: 1 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Я знаю, что экзамен будет трудным.' gapida ergash gapning turi qaysi?", options: ["Aniqlovchi", "To‘ldiruvchi", "Payt", "Maqsad"], correctAnswer: 1 },
+                { question: "'Дом, который построили недавно, уже заселён.' gapida ergash gap qaysi turga kiradi?", options: ["Aniqlovchi", "Sabab", "Shart", "Natija"], correctAnswer: 0 },
+                { question: "'Если бы у меня было время, я бы прочитал эту книгу.' gapida qanday ma'no ifodalangan?", options: ["Sabab", "Payt", "Shart", "Maqsad"], correctAnswer: 2 },
+                { question: "'Он сказал, что вернётся вечером.' gapida 'что вернётся вечером' qaysi vazifani bajaradi?", options: ["Aniqlovchi", "To‘ldiruvchi", "Hol", "Ega"], correctAnswer: 1 },
+                { question: "'Несмотря на усталость, спортсмен продолжал тренировку.' gapidagi 'несмотря на' nimaga kiradi?", options: ["Bog‘lovchi", "Murakkab predlog", "Yuklama", "Ravish"], correctAnswer: 1 },
+                { question: "'Человек, читающий книгу у окна, мой брат.' gapida ajratilgan bo‘lak qaysi?", options: ["мой брат", "человек", "читающий книгу у окна", "у окна"], correctAnswer: 2 },
+                { question: "'Во-первых, нужно внимательно прочитать текст.' gapida 'во-первых' nimaga kiradi?", options: ["Kirish so‘z", "Ravish", "Undalma", "To‘ldiruvchi"], correctAnswer: 0 },
+                { question: "'Услышав новость, он сразу позвонил другу.' gapida ravishdosh birikma qaysi?", options: ["он сразу", "позвонил другу", "услышав новость", "сразу позвонил"], correctAnswer: 2 },
+                { question: "'Как только прозвенел звонок, ученики вошли в класс.' gapida ergash gap turi qaysi?", options: ["Payt", "Sabab", "Maqsad", "Aniqlovchi"], correctAnswer: 0 },
+                { question: "'Он был не готов к ответу.' birikmasida 'не' qanday yoziladi?", options: ["Qo‘shib", "Ajratib", "Defis bilan", "Har doim ikki xil bo‘ladi\nChalg‘ituvchi savollar"], correctAnswer: 1 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "'РџРёСЃР°С‚РµР»СЊ, РїРѕ РјРЅРµРЅРёСЋ РєСЂРёС‚РёРєРѕРІ, СЃРѕР·РґР°Р» Р»СѓС‡С€РµРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ.' gapida 'РїРѕ РјРЅРµРЅРёСЋ РєСЂРёС‚РёРєРѕРІ' nimaga kiradi?", options: ["Kirish birikma", "Ega", "Kesim", "ToвЂldiruvchi"], correctAnswer: 0 },
-                { question: "'РљРЅРёРіР° РїСЂРѕС‡РёС‚Р°РЅР° СѓС‡РµРЅРёРєРѕРј.' gapida 'СѓС‡РµРЅРёРєРѕРј' qaysi kelishikda turibdi?", options: ["Bosh kelishik", "Tushum kelishigi", "Vositali kelishik", "Qaratqich kelishigi"], correctAnswer: 2 },
-                { question: "'Р§РµРј Р±РѕР»СЊС€Рµ С‡РµР»РѕРІРµРє С‡РёС‚Р°РµС‚, С‚РµРј Р±РѕРіР°С‡Рµ РµРіРѕ СЂРµС‡СЊ.' gapida qanday munosabat ifodalangan?", options: ["Sabab", "Qiyosiy munosabat", "Payt", "Zidlov"], correctAnswer: 1 },
-                { question: "'Р’СЃРµ Р±С‹Р»Рё РіРѕС‚РѕРІС‹ Рє РІС‹СЃС‚СѓРїР»РµРЅРёСЋ: Рё РІРµРґСѓС‰РёРµ, Рё СѓС‡Р°СЃС‚РЅРёРєРё, Рё РіРѕСЃС‚Рё.' gapida ikki nuqta nima uchun qoвЂyilgan?", options: ["KoвЂchirma gapdan oldin", "Umumlashtiruvchi soвЂzdan keyin uyushiq boвЂlaklar kelgani uchun", "Ergash gapdan oldin", "Undovdan keyin"], correctAnswer: 1 },
-                { question: "'РћРЅ РѕС‚РІРµС‚РёР»: В«РЇ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ РїСЂРёРґСѓ Р·Р°РІС‚СЂР°В».' gapida qanday sintaktik hodisa bor?", options: ["OвЂzlashtirma gap", "KoвЂchirma gap", "Kirish soвЂz", "Ajratilgan hol"], correctAnswer: 1 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "'Писатель, по мнению критиков, создал лучшее произведение.' gapida 'по мнению критиков' nimaga kiradi?", options: ["Kirish birikma", "Ega", "Kesim", "To‘ldiruvchi"], correctAnswer: 0 },
+                { question: "'Книга прочитана учеником.' gapida 'учеником' qaysi kelishikda turibdi?", options: ["Bosh kelishik", "Tushum kelishigi", "Vositali kelishik", "Qaratqich kelishigi"], correctAnswer: 2 },
+                { question: "'Чем больше человек читает, тем богаче его речь.' gapida qanday munosabat ifodalangan?", options: ["Sabab", "Qiyosiy munosabat", "Payt", "Zidlov"], correctAnswer: 1 },
+                { question: "'Все были готовы к выступлению: и ведущие, и участники, и гости.' gapida ikki nuqta nima uchun qo‘yilgan?", options: ["Ko‘chirma gapdan oldin", "Umumlashtiruvchi so‘zdan keyin uyushiq bo‘laklar kelgani uchun", "Ergash gapdan oldin", "Undovdan keyin"], correctAnswer: 1 },
+                { question: "'Он ответил: «Я обязательно приду завтра».' gapida qanday sintaktik hodisa bor?", options: ["O‘zlashtirma gap", "Ko‘chirma gap", "Kirish so‘z", "Ajratilgan hol"], correctAnswer: 1 }
             ],
             questionCount: 20,
             timeLimit: 20
         },
         11: {
             questions: [
-                // рџџў Oson savollar (1-5)
-                { question: "Qaysi gap bogвЂlovchisiz qoвЂshma gap hisoblanadi?", options: ["РЇ РІРѕС€С‘Р», Рё РІСЃРµ РїРѕСЃРјРѕС‚СЂРµР»Рё РЅР° РјРµРЅСЏ.", "РќР°СЃС‚СѓРїРёР» РІРµС‡РµСЂ вЂ” СЃС‚Р°Р»Рѕ РїСЂРѕС…Р»Р°РґРЅРѕ.", "РљРѕРіРґР° СЏ РїСЂРёС€С‘Р», СѓСЂРѕРє СѓР¶Рµ РЅР°С‡Р°Р»СЃСЏ.", "РњС‹ СЃРёРґРµР»Рё Рё СЂР°Р·РіРѕРІР°СЂРёРІР°Р»Рё."], correctAnswer: 1 },
-                { question: "Qaysi qatorda ajratilgan aniqlovchi qatnashgan?", options: ["Р”РµРІРѕС‡РєР°, С‡РёС‚Р°СЋС‰Р°СЏ РєРЅРёРіСѓ, СЃРёРґРµР»Р° Сѓ РѕРєРЅР°.", "Р”РµРІРѕС‡РєР° СЃРёРґРµР»Р° Сѓ РѕРєРЅР°.", "РЈ РѕРєРЅР° СЃРёРґРµР»Р° РґРµРІРѕС‡РєР°.", "РљРЅРёРіР° Р»РµР¶Р°Р»Р° РЅР° СЃС‚РѕР»Рµ."], correctAnswer: 0 },
-                { question: "Qaysi soвЂz kirish soвЂz boвЂla oladi?", options: ["РєРѕРЅРµС‡РЅРѕ", "РѕРєРЅРѕ", "Р±РµР¶Р°С‚СЊ", "РІС‡РµСЂР°"], correctAnswer: 0 },
-                { question: "Qaysi gapda undov intonatsiyasi bor?", options: ["РљР°Рє РїСЂРµРєСЂР°СЃРЅР° СЌС‚Р° РјСѓР·С‹РєР°!", "Р“РґРµ Р»РµР¶РёС‚ С‚РµС‚СЂР°РґСЊ?", "РњС‹ СЃР»СѓС€Р°Р»Рё РјСѓР·С‹РєСѓ.", "РњСѓР·С‹РєР° Р·РІСѓС‡Р°Р»Р° С‚РёС…Рѕ."], correctAnswer: 0 },
-                { question: "Qaysi vosita koвЂchirma gapni rasmiylashtirishda ishlatiladi?", options: ["Tirnoq", "Faqat vergul", "Faqat nuqta", "Qavs\nQiyinroq savollar"], correctAnswer: 0 },
+                // 🟢 Oson savollar (1-5)
+                { question: "Qaysi gap bog‘lovchisiz qo‘shma gap hisoblanadi?", options: ["Я вошёл, и все посмотрели на меня.", "Наступил вечер — стало прохладно.", "Когда я пришёл, урок уже начался.", "Мы сидели и разговаривали."], correctAnswer: 1 },
+                { question: "Qaysi qatorda ajratilgan aniqlovchi qatnashgan?", options: ["Девочка, читающая книгу, сидела у окна.", "Девочка сидела у окна.", "У окна сидела девочка.", "Книга лежала на столе."], correctAnswer: 0 },
+                { question: "Qaysi so‘z kirish so‘z bo‘la oladi?", options: ["конечно", "окно", "бежать", "вчера"], correctAnswer: 0 },
+                { question: "Qaysi gapda undov intonatsiyasi bor?", options: ["Как прекрасна эта музыка!", "Где лежит тетрадь?", "Мы слушали музыку.", "Музыка звучала тихо."], correctAnswer: 0 },
+                { question: "Qaysi vosita ko‘chirma gapni rasmiylashtirishda ishlatiladi?", options: ["Tirnoq", "Faqat vergul", "Faqat nuqta", "Qavs\nQiyinroq savollar"], correctAnswer: 0 },
 
-                // рџ”ґ Qiyinroq savollar (6-15)
-                { question: "'РЇ СЂР°Рґ, С‡С‚Рѕ С‚С‹ РїСЂРёС€С‘Р».' gapida ergash gap turi qaysi?", options: ["Aniqlovchi", "ToвЂldiruvchi", "Payt", "Shart"], correctAnswer: 1 },
-                { question: "'РўРѕС‚, РєС‚Рѕ РјРЅРѕРіРѕ С‡РёС‚Р°РµС‚, СѓРјРµРµС‚ СЏСЃРЅРѕ РІС‹СЂР°Р¶Р°С‚СЊ РјС‹СЃР»Рё.' gapida 'РєС‚Рѕ РјРЅРѕРіРѕ С‡РёС‚Р°РµС‚' qismi nimani aniqlab kelmoqda?", options: ["С‚РѕС‚ olmoshini", "СѓРјРµРµС‚ fe'lini", "РјС‹СЃР»Рё otini", "СЏСЃРЅРѕ ravishini"], correctAnswer: 0 },
-                { question: "'РҐРѕС‚СЏ Р±С‹Р»Рѕ СѓР¶Рµ РїРѕР·РґРЅРѕ, СЂР°Р±РѕС‚Р° РїСЂРѕРґРѕР»Р¶Р°Р»Р°СЃСЊ.' gapidagi ergash gap turi qaysi?", options: ["Sabab", "Shart", "ToвЂsiqsizlik", "Natija"], correctAnswer: 2 },
-                { question: "'РћРЅ РіРѕРІРѕСЂРёР» С‚Р°Рє С‚РёС…Рѕ, С‡С‚Рѕ РµРіРѕ РїРѕС‡С‚Рё РЅРµ СЃР»С‹С€Р°Р»Рё.' gapida qanday ma'no ifodalangan?", options: ["Daraja va natija", "Payt", "Sabab", "Maqsad"], correctAnswer: 0 },
-                { question: "'РџРѕ СЃР»РѕРІР°Рј РґРёСЂРµРєС‚РѕСЂР°, РїСЂРѕРµРєС‚ Р±СѓРґРµС‚ Р·Р°РІРµСЂС€С‘РЅ РІРѕРІСЂРµРјСЏ.' gapida 'РїРѕ СЃР»РѕРІР°Рј РґРёСЂРµРєС‚РѕСЂР°' nimaga kiradi?", options: ["Kirish birikma", "ToвЂldiruvchi", "Kesim", "Hol"], correctAnswer: 0 },
-                { question: "'РќРµ РїСЂРѕС‡РёС‚Р°РІ СЃС‚Р°С‚СЊСЋ, РЅРµР»СЊР·СЏ РґРµР»Р°С‚СЊ РІС‹РІРѕРґС‹.' gapida ravishdosh birikma qanday ma'no beradi?", options: ["Payt", "Shart / sababga yaqin holat", "Aniqlovchi", "Natija"], correctAnswer: 1 },
-                { question: "'РЎС‚СѓРґРµРЅС‚, СѓСЃС‚Р°РІС€РёР№ РїРѕСЃР»Рµ Р·Р°РЅСЏС‚РёР№, РІСЃС‘ Р¶Рµ РїСЂРѕРґРѕР»Р¶Р°Р» СЂР°Р±РѕС‚Р°С‚СЊ.' gapida ajratilgan boвЂlak qaysi?", options: ["СЃС‚СѓРґРµРЅС‚", "РїСЂРѕРґРѕР»Р¶Р°Р» СЂР°Р±РѕС‚Р°С‚СЊ", "СѓСЃС‚Р°РІС€РёР№ РїРѕСЃР»Рµ Р·Р°РЅСЏС‚РёР№", "РІСЃС‘ Р¶Рµ"], correctAnswer: 2 },
-                { question: "'РќРµ' qaysi holatda fe'l bilan alohida yoziladi?", options: ["РЅРµРЅР°РІРёРґРµС‚СЊ", "РЅРµРґРѕСѓРјРµРІР°С‚СЊ", "РЅРµ Р·РЅР°Р»", "РЅРµРІР·Р»СЋР±РёС‚СЊ"], correctAnswer: 2 },
-                { question: "'Р’ С‚РµС‡РµРЅРёРµ РЅРµРґРµР»Рё РјС‹ РіРѕС‚РѕРІРёР»РёСЃСЊ Рє РѕР»РёРјРїРёР°РґРµ.' gapidagi 'РІ С‚РµС‡РµРЅРёРµ' nimaga kiradi?", options: ["Hosila predlog", "BogвЂlovchi", "Ravish", "Yuklama"], correctAnswer: 0 },
-                { question: "'РћРЅ РЅРµ С‚РѕР»СЊРєРѕ РїРѕРґРіРѕС‚РѕРІРёР» РґРѕРєР»Р°Рґ, РЅРѕ Рё РІС‹СЃС‚СѓРїРёР» СЃ РЅРёРј Р±Р»РµСЃС‚СЏС‰Рµ.' gapida qanday bogвЂlovchi qoвЂllangan?", options: ["Zidlov bogвЂlovchi", "Juft bogвЂlovchi", "Ayiruv bogвЂlovchi", "Ergash gap bogвЂlovchisi\nChalgвЂituvchi savollar"], correctAnswer: 1 },
+                // 🔴 Qiyinroq savollar (6-15)
+                { question: "'Я рад, что ты пришёл.' gapida ergash gap turi qaysi?", options: ["Aniqlovchi", "To‘ldiruvchi", "Payt", "Shart"], correctAnswer: 1 },
+                { question: "'Тот, кто много читает, умеет ясно выражать мысли.' gapida 'кто много читает' qismi nimani aniqlab kelmoqda?", options: ["тот olmoshini", "умеет fe'lini", "мысли otini", "ясно ravishini"], correctAnswer: 0 },
+                { question: "'Хотя было уже поздно, работа продолжалась.' gapidagi ergash gap turi qaysi?", options: ["Sabab", "Shart", "To‘siqsizlik", "Natija"], correctAnswer: 2 },
+                { question: "'Он говорил так тихо, что его почти не слышали.' gapida qanday ma'no ifodalangan?", options: ["Daraja va natija", "Payt", "Sabab", "Maqsad"], correctAnswer: 0 },
+                { question: "'По словам директора, проект будет завершён вовремя.' gapida 'по словам директора' nimaga kiradi?", options: ["Kirish birikma", "To‘ldiruvchi", "Kesim", "Hol"], correctAnswer: 0 },
+                { question: "'Не прочитав статью, нельзя делать выводы.' gapida ravishdosh birikma qanday ma'no beradi?", options: ["Payt", "Shart / sababga yaqin holat", "Aniqlovchi", "Natija"], correctAnswer: 1 },
+                { question: "'Студент, уставший после занятий, всё же продолжал работать.' gapida ajratilgan bo‘lak qaysi?", options: ["студент", "продолжал работать", "уставший после занятий", "всё же"], correctAnswer: 2 },
+                { question: "'Не' qaysi holatda fe'l bilan alohida yoziladi?", options: ["ненавидеть", "недоумевать", "не знал", "невзлюбить"], correctAnswer: 2 },
+                { question: "'В течение недели мы готовились к олимпиаде.' gapidagi 'в течение' nimaga kiradi?", options: ["Hosila predlog", "Bog‘lovchi", "Ravish", "Yuklama"], correctAnswer: 0 },
+                { question: "'Он не только подготовил доклад, но и выступил с ним блестяще.' gapida qanday bog‘lovchi qo‘llangan?", options: ["Zidlov bog‘lovchi", "Juft bog‘lovchi", "Ayiruv bog‘lovchi", "Ergash gap bog‘lovchisi\nChalg‘ituvchi savollar"], correctAnswer: 1 },
 
-                // рџџЎ ChalgвЂituvchi savollar (16-20)
-                { question: "'РЎРѕР»РЅС†Рµ СЃРєСЂС‹Р»РѕСЃСЊ Р·Р° С‚СѓС‡Р°РјРё вЂ” РЅР°С‡Р°Р»СЃСЏ СЃРёР»СЊРЅС‹Р№ РґРѕР¶РґСЊ.' gapida tire nima ma'noni kuchaytiradi?", options: ["Izohlash", "Tez almashinuvchi voqealar yoki natija", "Uyushiq boвЂlak", "Undalma"], correctAnswer: 1 },
-                { question: "'РЇ СѓРІРµСЂРµРЅ: СЂРµС€РµРЅРёРµ Р±СѓРґРµС‚ РЅР°Р№РґРµРЅРѕ.' gapida ikki nuqta nima sababdan ishlatilgan?", options: ["KoвЂchirma gap uchun", "Ikkinchi qism birinchi qism mazmunini ochib bergani uchun", "Undalma uchun", "Uyushiq boвЂlak uchun"], correctAnswer: 1 },
-                { question: "'РљРЅРёРіР°, РєР°Рє РјРЅРµ РєР°Р¶РµС‚СЃСЏ, РѕС‡РµРЅСЊ РёРЅС‚РµСЂРµСЃРЅР°.' gapida 'РєР°Рє РјРЅРµ РєР°Р¶РµС‚СЃСЏ' nimaga kiradi?", options: ["Kirish gapcha", "Aniqlovchi", "Ega", "ToвЂldiruvchi"], correctAnswer: 0 },
-                { question: "'РўРµ, РєС‚Рѕ РѕРїРѕР·РґР°Р», РІРѕС€Р»Рё С‚РёС…Рѕ.' gapida bosh gap qaysi?", options: ["РєС‚Рѕ РѕРїРѕР·РґР°Р»", "С‚Рµ РІРѕС€Р»Рё С‚РёС…Рѕ", "РѕРїРѕР·РґР°Р»", "РєС‚Рѕ РІРѕС€Р»Рё С‚РёС…Рѕ"], correctAnswer: 1 },
-                { question: "'РќРµ РІСЃС‘ С‚Рѕ Р·РѕР»РѕС‚Рѕ, С‡С‚Рѕ Р±Р»РµСЃС‚РёС‚.' gapida ergash gapning turi qaysi?", options: ["Aniqlovchi", "ToвЂldiruvchi", "Ega", "Payt"], correctAnswer: 0 }
+                // 🟡 Chalg‘ituvchi savollar (16-20)
+                { question: "'Солнце скрылось за тучами — начался сильный дождь.' gapida tire nima ma'noni kuchaytiradi?", options: ["Izohlash", "Tez almashinuvchi voqealar yoki natija", "Uyushiq bo‘lak", "Undalma"], correctAnswer: 1 },
+                { question: "'Я уверен: решение будет найдено.' gapida ikki nuqta nima sababdan ishlatilgan?", options: ["Ko‘chirma gap uchun", "Ikkinchi qism birinchi qism mazmunini ochib bergani uchun", "Undalma uchun", "Uyushiq bo‘lak uchun"], correctAnswer: 1 },
+                { question: "'Книга, как мне кажется, очень интересна.' gapida 'как мне кажется' nimaga kiradi?", options: ["Kirish gapcha", "Aniqlovchi", "Ega", "To‘ldiruvchi"], correctAnswer: 0 },
+                { question: "'Те, кто опоздал, вошли тихо.' gapida bosh gap qaysi?", options: ["кто опоздал", "те вошли тихо", "опоздал", "кто вошли тихо"], correctAnswer: 1 },
+                { question: "'Не всё то золото, что блестит.' gapida ergash gapning turi qaysi?", options: ["Aniqlovchi", "To‘ldiruvchi", "Ega", "Payt"], correctAnswer: 0 }
             ],
             questionCount: 20,
             timeLimit: 20
