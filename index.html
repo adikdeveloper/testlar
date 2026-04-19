@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream School - International Olimpiad</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Home Screen -->
+    <div id="home-screen" class="screen active">
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo/logo.jpg" alt="My Dream School Logo" class="logo">
+            </div>
+            <h1 class="main-title">Xalqaro Olimpiada</h1>
+            <p class="subtitle">Test platformasiga xush kelibsiz!</p>
+
+            <div class="subject-selection">
+                <h2>Fanni tanlang</h2>
+                <div class="subject-cards">
+                    <div class="subject-card" data-subject="russian">
+                        <div class="subject-icon">
+                            <svg viewBox="0 0 80 80" fill="none">
+                                <circle cx="40" cy="40" r="38" fill="#1a3a5c" stroke="#d4a84b" stroke-width="3" />
+                                <circle cx="40" cy="40" r="32" fill="white" stroke="#1a3a5c" stroke-width="2" />
+                                <path d="M20 55 L40 50 L60 55 L40 60 Z" fill="#1a3a5c" />
+                                <path d="M36 50 L40 30 L44 50" stroke="#d4a84b" stroke-width="3" fill="none" />
+                                <circle cx="40" cy="26" r="6" fill="#d4a84b" />
+                                <text x="40" y="46" text-anchor="middle" fill="#1a3a5c" font-size="10"
+                                    font-weight="bold">RU</text>
+                            </svg>
+                        </div>
+                        <h3>Rus tili</h3>
+                        <p>Русский язык</p>
+                    </div>
+                    <div class="subject-card" data-subject="english">
+                        <div class="subject-icon">
+                            <svg viewBox="0 0 80 80" fill="none">
+                                <circle cx="40" cy="40" r="38" fill="#1a3a5c" stroke="#d4a84b" stroke-width="3" />
+                                <circle cx="40" cy="40" r="32" fill="white" stroke="#1a3a5c" stroke-width="2" />
+                                <path d="M20 55 L40 50 L60 55 L40 60 Z" fill="#1a3a5c" />
+                                <path d="M36 50 L40 30 L44 50" stroke="#d4a84b" stroke-width="3" fill="none" />
+                                <circle cx="40" cy="26" r="6" fill="#d4a84b" />
+                                <text x="40" y="46" text-anchor="middle" fill="#1a3a5c" font-size="10"
+                                    font-weight="bold">EN</text>
+                            </svg>
+                        </div>
+                        <h3>Ingliz tili</h3>
+                        <p>English Language</p>
+                    </div>
+                    <div class="subject-card" data-subject="math">
+                        <div class="subject-icon">
+                            <svg viewBox="0 0 80 80" fill="none">
+                                <circle cx="40" cy="40" r="38" fill="#1a3a5c" stroke="#d4a84b" stroke-width="3" />
+                                <circle cx="40" cy="40" r="32" fill="white" stroke="#1a3a5c" stroke-width="2" />
+                                <path d="M20 55 L40 50 L60 55 L40 60 Z" fill="#1a3a5c" />
+                                <path d="M36 50 L40 30 L44 50" stroke="#d4a84b" stroke-width="3" fill="none" />
+                                <circle cx="40" cy="26" r="6" fill="#d4a84b" />
+                                <text x="40" y="46" text-anchor="middle" fill="#1a3a5c" font-size="10"
+                                    font-weight="bold">π∑</text>
+                            </svg>
+                        </div>
+                        <h3>Matematika</h3>
+                        <p>Mathematics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grade Selection Screen -->
+    <div id="grade-screen" class="screen">
+        <div class="container">
+            <div class="logo-small">
+                <img src="logo/logo.jpg" alt="Logo" class="logo-mini">
+            </div>
+            <h2 class="screen-title" id="selected-subject-title">Rus tili</h2>
+            <p class="screen-subtitle">Sinfingizni tanlang</p>
+
+            <div class="grade-grid">
+                <div class="grade-card" data-grade="1">
+                    <span class="grade-label">1-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="2">
+                    <span class="grade-label">2-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="3">
+                    <span class="grade-label">3-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="4">
+                    <span class="grade-label">4-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="5">
+                    <span class="grade-label">5-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="6">
+                    <span class="grade-label">6-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="7">
+                    <span class="grade-label">7-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="8">
+                    <span class="grade-label">8-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="9">
+                    <span class="grade-label">9-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="10">
+                    <span class="grade-label">10-sinf</span>
+                </div>
+                <div class="grade-card" data-grade="11">
+                    <span class="grade-label">11-sinf</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Test Info Screen -->
+    <div id="info-screen" class="screen">
+        <div class="container">
+            <div class="info-card">
+                <div class="logo-small">
+                    <img src="logo/logo.jpg" alt="Logo" class="logo-mini">
+                </div>
+                <h2 id="test-title">Test ma'lumotlari</h2>
+                <div class="info-details">
+                    <div class="info-item">
+                        <span class="info-icon">📚</span>
+                        <span class="info-label">Fan:</span>
+                        <span class="info-value" id="info-subject">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🎓</span>
+                        <span class="info-label">Sinf:</span>
+                        <span class="info-value" id="info-grade">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">❓</span>
+                        <span class="info-label">Savollar soni:</span>
+                        <span class="info-value" id="info-questions">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">⏱️</span>
+                        <span class="info-label">Vaqt:</span>
+                        <span class="info-value" id="info-time">-</span>
+                    </div>
+                </div>
+                <button class="start-btn" onclick="startTest()">
+                    <span>🚀</span> Testni boshlash
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Screen -->
+    <div id="test-screen" class="screen">
+        <div class="test-header">
+            <div class="test-header-left">
+                <img src="logo/logo.jpg" alt="Logo" class="logo-tiny">
+                <span id="test-subject-label">Rus tili - 1-sinf</span>
+            </div>
+            <div class="test-timer">
+                <span class="timer-icon">⏱️</span>
+                <span id="timer">00:00</span>
+            </div>
+        </div>
+
+        <!-- Question navigation in header -->
+        <div class="question-nav-header">
+            <div class="question-dots" id="question-dots">
+                <!-- Question dots will be dynamically added -->
+            </div>
+        </div>
+
+        <div class="test-container">
+            <div class="question-card">
+                <div class="question-number" id="question-number">Savol 1</div>
+                <div class="question-text" id="question-text">
+                    Bu yerda savol matni ko'rsatiladi
+                </div>
+                <div class="options-container" id="options-container">
+                    <!-- Options will be dynamically added -->
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button class="nav-btn prev-btn" id="prev-btn" onclick="previousQuestion()">
+                    <span>←</span> Oldingi
+                </button>
+                <button class="nav-btn next-btn" id="next-btn" onclick="nextQuestion()">
+                    Keyingi <span>→</span>
+                </button>
+                <button class="nav-btn finish-btn" id="finish-btn" onclick="finishTest()">
+                    Yakunlash ✓
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="result-screen" class="screen">
+        <div class="container">
+            <div class="result-card">
+                <div class="logo-small">
+                    <img src="logo/logo.jpg" alt="Logo" class="logo-mini">
+                </div>
+                <h2>🎉 Test yakunlandi!</h2>
+
+                <div class="result-circle">
+                    <svg viewBox="0 0 100 100">
+                        <circle class="circle-bg" cx="50" cy="50" r="45" />
+                        <circle class="circle-progress" id="result-circle" cx="50" cy="50" r="45" />
+                    </svg>
+                    <div class="result-percentage" id="result-percentage">0%</div>
+                </div>
+
+                <div class="result-details">
+                    <div class="result-item correct">
+                        <span class="result-icon">✓</span>
+                        <span class="result-label">To'g'ri:</span>
+                        <span class="result-value" id="correct-count">0</span>
+                    </div>
+                    <div class="result-item incorrect">
+                        <span class="result-icon">✗</span>
+                        <span class="result-label">Noto'g'ri:</span>
+                        <span class="result-value" id="incorrect-count">0</span>
+                    </div>
+                    <div class="result-item unanswered">
+                        <span class="result-icon">⚪</span>
+                        <span class="result-label">Javobsiz:</span>
+                        <span class="result-value" id="unanswered-count">0</span>
+                    </div>
+                    <div class="result-item total">
+                        <span class="result-icon">📊</span>
+                        <span class="result-label">Jami:</span>
+                        <span class="result-value" id="total-count">0</span>
+                    </div>
+                </div>
+
+                <div class="result-buttons">
+                    <button class="result-btn review-btn" onclick="reviewAnswers()">
+                        📝 Xatolarni ko'rish
+                    </button>
+                    <button class="result-btn home-btn" onclick="goHome()">
+                        🏠 Bosh sahifa
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Screen -->
+    <div id="review-screen" class="screen">
+        <div class="container">
+            <button class="back-btn" onclick="goBack('result')">
+                <span>←</span> Natijaga qaytish
+            </button>
+            <h2 class="screen-title">📝 Javoblarni ko'rish</h2>
+            <div class="review-container" id="review-container">
+                <!-- Review items will be dynamically added -->
+            </div>
+            <button class="result-btn home-btn" onclick="goHome()">
+                🏠 Bosh sahifaga qaytish
+            </button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
