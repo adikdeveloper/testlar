@@ -693,7 +693,7 @@ const questionsDatabase = {
         },
         3: {
             questions: [
-                { question: "Hisoblang: 72 : 8 + 3 Г— (15 - 7)", options: ["33", "31", "40", "24"], correctAnswer: 0 },
+                { question: "Hisoblang: 72 : 8 + 3 * (15 - 7)", options: ["33", "31", "40", "24"], correctAnswer: 0 },
                 { question: "Eng kichik uch xonali sondan eng kichik ikki xonali sonni ayiring va natijani 2 ga bo'ling.", options: ["50", "45", "40", "90"], correctAnswer: 1 },
                 { question: "To'g'ri to'rtburchakning eni 6 sm, bo'yi esa enidan 2 marta uzun. Uning perimetrini toping.", options: ["18 sm", "36 sm", "30 sm", "24 sm"], correctAnswer: 1 },
                 { question: "Do'konda 5 ta daftar 15 000 so'm turadi. 9 ta shunday daftar necha pul bo'ladi?", options: ["25 000 so'm", "27 000 so'm", "20 000 so'm", "30 000 so'm"], correctAnswer: 1 },
@@ -719,7 +719,7 @@ const questionsDatabase = {
         },
         4: {
             questions: [
-                { question: "Hisoblang: 350 Г— 2 - (800 + 200) : 100", options: ["690", "600", "500", "700"], correctAnswer: 0 },
+                { question: "Hisoblang: 350 * 2 - (800 + 200) : 100", options: ["690", "600", "500", "700"], correctAnswer: 0 },
                 { question: "6, 0, 9, 1 raqamlaridan foydalanib tuzish mumkin bo'lgan eng katta va eng kichik to'rt xonali sonlar ayirmasini toping (raqamlar takrorlanmasin).", options: ["8541", "8595", "7000", "8532"], correctAnswer: 0 },
                 { question: "Agar kitobning 1/4 qismi 30 bet bo'lsa, kitobning yarmi necha bet bo'ladi?", options: ["120 bet", "60 bet", "100 bet", "90 bet"], correctAnswer: 1 },
                 { question: "Kvadratning yuzi 49 sm^2. Shu kvadratning perimetrini toping.", options: ["49 sm", "28 sm", "21 sm", "14 sm"], correctAnswer: 1 },
@@ -745,7 +745,7 @@ const questionsDatabase = {
         },
         5: {
             questions: [
-                { question: "Hisoblang: (4.5 : 0.5 + 11) Г— 0.1 + 2^3", options: ["10", "12", "11", "9"], correctAnswer: 0 },
+                { question: "Hisoblang: (4.5 : 0.5 + 11) * 0.1 + 2^3", options: ["10", "12", "11", "9"], correctAnswer: 0 },
                 { question: "Eng kichik besh xonali sondan eng katta to'rt xonali sonni ayirib, natijani 1000 ga ko'paytiring. Hosil bo'lgan sonni toping.", options: ["1", "1000", "0", "100"], correctAnswer: 1 },
                 { question: "3/8 qismi 24 ga teng bo'lgan sonning 1/4 qismi nechaga teng?", options: ["64", "16", "12", "8"], correctAnswer: 1 },
                 { question: "Kvadratning yuzi 81 sm^2. Agar uning tomoni 3 sm ga orttirilsa, yangi kvadratning perimetri necha sm bo'ladi?", options: ["48 sm", "36 sm", "44 sm", "12 sm"], correctAnswer: 0 },
@@ -771,15 +771,15 @@ const questionsDatabase = {
         },
         6: {
             questions: [
-                { question: "Hisoblang (ishoralarga e'tibor bering): 12 - 3 Г— (4 - 6) + 15 : (-3)", options: ["13", "1", "-11", "23"], correctAnswer: 0 },
-                { question: "O'nli kasrlarni hisoblang: (0.25 Г— 8 + 1.5) / 0.5", options: ["7", "3.5", "7.5", "14"], correctAnswer: 0 },
+                { question: "Hisoblang (ishoralarga e'tibor bering): 12 - 3 * (4 - 6) + 15 : (-3)", options: ["13", "1", "-11", "23"], correctAnswer: 0 },
+                { question: "O'nli kasrlarni hisoblang: (0.25 * 8 + 1.5) / 0.5", options: ["7", "3.5", "7.5", "14"], correctAnswer: 0 },
                 { question: "Tovarning narxi avval 20% ga oshirildi, so'ngra yangi narx 20% ga tushirildi. Tovarning dastlabki narxi qanday o'zgardi?", options: ["O'zgarmadi", "4% ga arzonlashdi", "2% ga arzonlashdi", "4% ga qimmatlashdi"], correctAnswer: 1 },
                 { question: "6 ta ishchi bir ishni 10 kunda tugatadi. Shu ishni 4 ta ishchi necha kunda tugatadi?", options: ["15 kunda", "6.6 kunda", "20 kunda", "12 kunda"], correctAnswer: 0 },
                 { question: "Chiziqli tenglama: 2(x - 3) = 4x + 10 tenglamani yeching.", options: ["-8", "8", "2", "-2"], correctAnswer: 0 },
                 { question: "Ikki sonning nisbati 3:5 ga, yig'indisi esa 64 ga teng. Shu sonlarning ayirmasini toping.", options: ["16", "8", "32", "24"], correctAnswer: 0 },
                 { question: "EKUB(24, 36) + EKUK(24, 36) yig'indisini toping.", options: ["84", "72", "96", "60"], correctAnswer: 0 },
                 { question: "Modul: |x - 5| = 3 tenglamaning ildizlari yig'indisini toping.", options: ["10", "6", "0", "8"], correctAnswer: 0 },
-                { question: "2^10 Г— 5^10 ko'paytmaning natijasi necha xonali son bo'ladi?", options: ["11 xonali", "10 xonali", "9 xonali", "12 xonali"], correctAnswer: 0 },
+                { question: "2^10 * 5^10 ko'paytmaning natijasi necha xonali son bo'ladi?", options: ["11 xonali", "10 xonali", "9 xonali", "12 xonali"], correctAnswer: 0 },
                 { question: "Burchakning bissektrisasi uni 2 ta burchakka ajratdi. Agar asl burchak 120° bo'lsa, hosil bo'lgan 2 ta burchakning yig'indisi necha gradus bo'ladi?", options: ["120°", "60°", "90°", "180°"], correctAnswer: 0 },
                 { question: "Uzunligi 200 metr bo'lgan poyezd 72 km/soat tezlik bilan harakatlanmoqda. U yo'l chetidagi ustun yonidan necha sekundda o'tib ketadi?", options: ["10 sekund", "20 sekund", "15 sekund", "5 sekund"], correctAnswer: 0 },
                 { question: "20% li 40 kg sho'r suvga qancha toza suv qo'shilsa, uning sho'rligi 10% bo'lib qoladi?", options: ["40 kg", "20 kg", "80 kg", "60 kg"], correctAnswer: 0 },
@@ -905,7 +905,7 @@ const questionsDatabase = {
                 { question: "Radioaktiv elementning miqdori 3 ta yarim yemirilish davridan keyin dastlabki miqdorining necha foizini tashkil etadi?", options: ["12.5%", "25%", "37.5%", "50%"], correctAnswer: 0 },
                 { question: "G'altakdan o'tayotgan tok I = I_0 sin(ωt) qonuniyat bilan o'zgarmoqda. G'altakda hosil bo'lgan o'zinduksiya EYKning maksimal qiymatini toping.", options: ["LI_0ω", "LI_0ω^2", "L I_0 / ω", "L / I_0ω"], correctAnswer: 0 },
                 { question: "Matematik mayatnikning ipi uzunligi 4 marta oshirilib, Oyga (g_oy = g/6) olib borilsa, uning tebranish davri qanday o'zgaradi?", options: ["√24 marta ortadi", "√24 marta kamayadi", "24 marta ortadi", "√6 marta ortadi"], correctAnswer: 0 },
-                { question: "Nur shishadan havoga o'tmoqda (n = 1.5). To'la ichki qaytishning chegaraviy burchagi sinГјsini toping.", options: ["2/3", "1/2", "3/4", "1/1.5"], correctAnswer: 0 },
+                { question: "Nur shishadan havoga o'tmoqda (n = 1.5). To'la ichki qaytishning chegaraviy burchagi sinusini toping.", options: ["2/3", "1/2", "3/4", "1/1.5"], correctAnswer: 0 },
                 { question: "Hisoblang: cos 20° + cos 100° + cos 140°", options: ["0", "1", "√3/2", "-1/2"], correctAnswer: 0 },
                 { question: "Berilgan hajmdagi silindrning to'la sirti eng kichik bo'lishi uchun uning balandligi va radiusi orasidagi nisbat (h/r) qanday bo'lishi kerak?", options: ["1", "2", "4", "0.5"], correctAnswer: 1 },
                 { question: "a, b, c birlik vektorlar va a + b + c = 0 bo'lsa, a*b + b*c + c*a skalyar ko'paytmalar yig'indisini toping.", options: ["-3", "-1.5", "0", "1.5"], correctAnswer: 1 },
