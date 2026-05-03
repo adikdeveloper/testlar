@@ -642,7 +642,37 @@ const questionsDatabase = {
             questionCount: 19,
             timeLimit: 20
         },
+        2: {
+            questions: [
+                // 🟢 Oson savollar (1-5)
+                { question: "24 va 36 sonlarining yig'indisi qancha?", options: ["60", "50", "64", "70"], correctAnswer: 0 },
+                { question: "Hovlida 5 ta velosiped turibdi. Ularning jami nechta g'ildiragi bor? (Hamma velosiped 2 g'ildirakli)", options: ["5", "10", "15", "20"], correctAnswer: 1 },
+                { question: "Qonuniyatni toping va so'roq belgisi o'rnidagi sonni belgilang: 10, 15, 20, 25, ?", options: ["26", "29", "30", "35"], correctAnswer: 2 },
+                { question: "Avtobusda 15 kishi ketyapti edi. Bekatda 5 kishi tushib qoldi va 7 kishi chiqdi. Avtobusda necha yo'lovchi bo'ldi?", options: ["10", "12", "15", "17"], correctAnswer: 3 },
+                { question: "Kvadrat va bitta uchburchakning birgalikda jami nechta burchagi bor?", options: ["7", "8", "6", "9"], correctAnswer: 0 },
+
+                // 🔴 Qiyin darajadagi savollar (6-20)
+                { question: "Bitta tuxum suvda 5 minutda pishadi. Qozonga birdaniga 4 ta tuxum solinsa, ular necha minutda pishadi?", options: ["20", "5", "9", "1"], correctAnswer: 1 },
+                { question: "Akasi 12 yoshda, ukasi esa 7 yoshda. 3 yildan keyin ularning yoshlari farqi nechaga teng bo'ladi?", options: ["8", "6", "5", "10"], correctAnswer: 2 },
+                { question: "10 metrli uzun arqonni har biri 2 metrdan bo'lgan qismlarga ajratish uchun necha marta kesish kerak?", options: ["5", "3", "2", "4"], correctAnswer: 3 },
+                { question: "Qorong'i xonada qutining ichida 5 ta qora va 5 ta oq paypoq aralashib yotibdi. Qaramasdan kamida necha paypoq olinsa, ularning orasidan aniq bir xil rangdagi bir juft paypoq chiqadi?", options: ["3", "2", "5", "6"], correctAnswer: 0 },
+                { question: "Yugurish musobaqasida Anvar marraga yetib kelganlar orasida oxiridan 7-o'rinni egalladi. Agar musobaqada jami 15 kishi qatnashgan bo'lsa, Anvar oldindan hisoblaganda nechanchi o'rinni olgan?", options: ["8", "9", "7", "10"], correctAnswer: 1 },
+                { question: "Tarozining bir pallasida 2 kg tosh va yarimta g'isht, ikkinchi pallasida esa 1 ta butun g'isht bor. Tarozi to'la muvozanatda turibdi. Bitta butun g'ishtning og'irligi necha kilogramm?", options: ["2", "3", "4", "6"], correctAnswer: 2 },
+                { question: "Fermada sigirlar va g'ozlar boqiladi. Ularning jami boshlari 10 ta, oyoqlari esa 26 ta. Fermada nechta g'oz bor?", options: ["3", "5", "6", "7"], correctAnswer: 3 },
+                { question: "1 dan 50 gacha bo'lgan barcha sonlar qog'ozga yozib chiqildi. Bunda 3 raqami jami necha marta yozilgan?", options: ["15", "14", "13", "16"], correctAnswer: 0 },
+                { question: "Qalin daftar va qalam birgalikda 1100 so'm turadi. Daftar qalamdan 1000 so'm qimmat. Bitta qalam necha pul turadi?", options: ["100", "50", "1000", "150"], correctAnswer: 1 },
+                { question: "Uzunligi 10 sm, eni 5 sm bo'lgan to'g'riburchak shaklidagi qog'ozdan eng katta o'lchamdagi kvadrat kesib olindi. Kesib olingan kvadratning perimetri necha santimetrga teng?", options: ["15", "25", "20", "10"], correctAnswer: 2 },
+                { question: "Agar oyning 3-kuni seshanba kuniga to'g'ri kelsa, shu oyning 25-kuni qaysi haftaning kuniga to'g'ri keladi?", options: ["Dushanba", "Juma", "Payshanba", "Chorshanba"], correctAnswer: 3 },
+                { question: "Bobo 15 ta konfetni 4 ta nabirasiga bo'lib bermoqchi. Lekin hech bir nabira bir xil sonda konfet olmasligi kerak (hammasi kamida 1 tadan konfet oladi). Eng ko'p konfet olgan nabirasiga nechta konfet tekkan?", options: ["9", "8", "10", "7"], correctAnswer: 0 },
+                { question: "Nodir qiziqarli kitob o'qishni boshladi. U bugun kitobning 12-betidan boshlab 25-betigacha o'qidi (12 va 25-betlarni ham to'liq o'qidi). Nodir bugun jami nechta bet o'qigan?", options: ["13", "14", "12", "15"], correctAnswer: 1 },
+                { question: "Quduqning chuqurligi 10 metr. Qurbaqa kunduzi 3 metr yuqoriga sakrab chiqadi, tunda uxlab qolgani uchun sirpanib 2 metr pastga tushib ketadi. Qurbaqa necha kunda quduqdan tashqariga chiqib oladi?", options: ["10", "7", "8", "9"], correctAnswer: 2 },
+                { question: "Uchta daraxtda jami 30 ta qush qo'nib turgan edi. Birinchi daraxtdan 3 ta qush uchib ketdi, ikkinchi daraxtdan esa uchinchi daraxtga 2 ta qush uchib o'tdi. Shundan so'ng uchala daraxtdagi qushlar soni bir xil bo'lib qoldi. Dastlab ikkinchi daraxtda nechta qush bo'lgan?", options: ["9", "10", "13", "11"], correctAnswer: 3 }
+            ],
+            questionCount: 20,
+            timeLimit: 20
+        },
         4: {
+
             questions: [
                 // 🟢 Oson savollar (1-5)
                 { question: "Eng kichik to'rt xonali sondan eng katta ikki xonali sonni ayirsak, qanday son hosil bo'ladi?", options: ["901", "899", "900", "910"], correctAnswer: 0 },
