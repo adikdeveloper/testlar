@@ -671,7 +671,37 @@ const questionsDatabase = {
             questionCount: 20,
             timeLimit: 20
         },
+        3: {
+            questions: [
+                // 🟢 Oson savollar (1-5)
+                { question: "345 va 155 sonlarining yig'indisi nechaga teng?", options: ["500", "400", "600", "490"], correctAnswer: 0 },
+                { question: "8 ni 7 ga ko'paytirsak qanday son hosil bo'ladi?", options: ["54", "56", "64", "48"], correctAnswer: 1 },
+                { question: "2 metr uzunlikdagi arqon necha santimetrga teng bo'ladi?", options: ["20", "200", "2000", "2"], correctAnswer: 1 },
+                { question: "Qonuniyatni davom ettiring: 5, 10, 15, 20... Ushbu qatorda 8-o'rinda qanday son keladi?", options: ["30", "35", "40", "25"], correctAnswer: 2 },
+                { question: "Kvadrat shaklidagi bog'ning bir tomoni 6 metrga teng. Bu bog'ning yuzi qancha?", options: ["12", "36", "24", "18"], correctAnswer: 1 },
+
+                // 🔴 Qiyin darajadagi savollar (6-20)
+                { question: "Matematika darsi soat 10:15 da boshlandi va 45 minut davom etdi. Dars soat nechada tugadi?", options: ["10:50", "11:00", "11:15", "11:45"], correctAnswer: 1 },
+                { question: "Qafsda tovuqlar va quyonlar boqilmoqda. Ularning jami boshlari 12 ta, oyoqlari esa 34 ta. Qafsda nechta quyon bor?", options: ["5", "7", "6", "4"], correctAnswer: 0 },
+                { question: "Ota 35 yoshda, o'g'il esa 11 yoshda. Necha yildan keyin otaning yoshi o'g'lining yoshidan roppa-rosa 2 marta katta bo'ladi?", options: ["11", "12", "13", "14"], correctAnswer: 2 },
+                { question: "Faqat 1, 2 va 3 raqamlari yordamida (raqamlar takrorlanmasligi sharti bilan) jami nechta har xil uch xonali son tuzish mumkin?", options: ["3", "6", "9", "8"], correctAnswer: 1 },
+                { question: "Yugurish yo'lakchasiga har 5 metrda bittadan bayroqcha o'rnatilgan (1-bayroqcha start chizigida). 1-bayroqchadan 10-bayroqchagacha bo'lgan masofa jami necha metr bo'ladi?", options: ["50", "45", "40", "55"], correctAnswer: 1 },
+                { question: "4 ta usta 4 ta stulni yasash uchun 4 kun sarflaydi. Xuddi shunday ishlaydigan 8 ta usta 8 ta stulni yasash uchun necha kun sarflaydi?", options: ["8", "4", "2", "6"], correctAnswer: 1 },
+                { question: "Tarozining bir pallasida 3 ta olma va 1 ta nok turibdi, ular 1 ta qovunning og'irligi bilan bir xil. Agar 1 ta qovun roppa-rosa 7 ta olmaning og'irligiga teng bo'lsa, 1 ta nok nechta olmaga teng?", options: ["2", "3", "4", "5"], correctAnswer: 2 },
+                { question: "10 dan 100 gacha bo'lgan sonlar orasida oxirgi raqami 7 bilan tugaydigan nechta son bor?", options: ["10", "9", "8", "11"], correctAnswer: 0 },
+                { question: "Tarvuzning yarmining yarmi 3 kilogramm tosh bosadi. Butun tarvuz necha kilogramm?", options: ["6", "9", "12", "15"], correctAnswer: 2 },
+                { question: "Qalin yog'och xodani arra bilan 5 ta bo'lakka bo'lish uchun jami 20 daqiqa vaqt ketdi. Bitta joydan kesish uchun necha daqiqa vaqt sarflangan?", options: ["4", "5", "6", "3"], correctAnswer: 1 },
+                { question: "Agar shu yilning yanvar oyining birinchi kuni Dushanba kuniga to'g'ri kelsa, shu oyning o'zida jami nechta Dushanba kuni bo'ladi? (Yanvar oyi 31 kun)", options: ["4", "5", "6", "3"], correctAnswer: 1 },
+                { question: "Poyezd 4 ta vagondan iborat. Aziza boshidan hisoblaganda 3-vagonda ketyapti. Uning orqasida nechta vagon qolgan?", options: ["1", "2", "3", "4"], correctAnswer: 0 },
+                { question: "Bo'sh turgan 12 litrli idishga jo'mrakdan har daqiqada 3 litr suv quyiladi. Lekin idishning tagidagi teshikdan har daqiqada 1 litr suv oqib ketadi. Bu idish necha daqiqada to'ladi?", options: ["4", "6", "8", "12"], correctAnswer: 1 },
+                { question: "A va B noma'lum sonlar yashiringan. A + B = 15 va A - B = 3. Ushbu sonlarning ko'paytmasi (A × B) nechaga teng?", options: ["45", "50", "54", "60"], correctAnswer: 2 },
+                { question: "Qutida 10 ta qizil, 8 ta ko'k va 5 ta yashil shar bor. Ko'zi yumgan holda eng kamida nechta shar olinsa, olingan sharlar orasida albatta bitta yashil shar chiqishi aniq bo'ladi?", options: ["18", "19", "14", "6"], correctAnswer: 1 }
+            ],
+            questionCount: 20,
+            timeLimit: 20
+        },
         4: {
+
 
             questions: [
                 // 🟢 Oson savollar (1-5)
